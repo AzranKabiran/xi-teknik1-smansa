@@ -1,0 +1,1113 @@
+{
+  "_meta": {
+    "kelas": "XI TEKNIK 1",
+    "sekolah": "SMA Negeri 1 Gebang",
+    "tahun": "2025/2027",
+    "versi": "3.3.0",
+    "updated": "2026-03-08"
+  },
+  "anggota": [
+    {
+      "nama": "Aaqilah Wanda Putri",
+      "emoji": "😎",
+      "cita": "Pegawai BUMN",
+      "hobi": "Travelling",
+      "lahir": "2009-08-15"
+    },
+    {
+      "nama": "Adinda Ayu Agustin",
+      "emoji": "😊",
+      "cita": "Flight Attendant",
+      "hobi": "Seeking a new vibe",
+      "lahir": "2009-08-20"
+    },
+    {
+      "nama": "Ahmad Hanafi",
+      "emoji": "🧑",
+      "cita": "Pengusaha",
+      "hobi": "Gaming",
+      "lahir": "2008-06-27"
+    },
+    {
+      "nama": "Al Hafna",
+      "emoji": "👩",
+      "cita": "Pengusaha",
+      "hobi": "Nonton",
+      "lahir": "2009-01-22"
+    },
+    {
+      "nama": "Alief Hakim Lubis",
+      "emoji": "⚡",
+      "cita": "Filsuf",
+      "hobi": "Bicara Sendiri",
+      "lahir": "2009-10-01"
+    },
+    {
+      "nama": "Amri Satria",
+      "emoji": "🌸",
+      "cita": "Perawat",
+      "hobi": "Membaca Buku",
+      "lahir": "2009-05-12"
+    },
+    {
+      "nama": "Arrafi Rizky Ramadhan",
+      "emoji": "🎯",
+      "cita": "Kerja Ke Jepang",
+      "hobi": "Belajar bahasa jepang",
+      "lahir": "2009-09-08"
+    },
+    {
+      "nama": "Batrisyia Larasati",
+      "emoji": "🎮",
+      "cita": "Dokter",
+      "hobi": "Membaca · Memasak",
+      "lahir": "2009-08-19"
+    },
+    {
+      "nama": "Cinda Maria",
+      "emoji": "💎",
+      "cita": "Orang Kaya",
+      "hobi": "Nyanyi · Joget",
+      "lahir": "2008-09-14"
+    },
+    {
+      "nama": "Cindi Maria",
+      "emoji": "🌅",
+      "cita": "CEO",
+      "hobi": "Menggambar · Nyanyi",
+      "lahir": "2009-07-08"
+    },
+    {
+      "nama": "Gloria Manulang",
+      "emoji": "🎨",
+      "cita": "Dokpol",
+      "hobi": "Mimpi · Travelling",
+      "lahir": "2009-07-10"
+    },
+    {
+      "nama": "Hosea Silaban",
+      "emoji": "🙏",
+      "cita": "TNI",
+      "hobi": "Berenang",
+      "lahir": "2009-11-23"
+    },
+    {
+      "nama": "Indra Dermawan",
+      "emoji": "🌟",
+      "cita": "Abdi Negara",
+      "hobi": "Running",
+      "lahir": "2009-04-14"
+    },
+    {
+      "nama": "Jhonatan Sihombing",
+      "emoji": "🚀",
+      "cita": "Petani Sawit",
+      "hobi": "Home Workout",
+      "lahir": "2009-03-06"
+    },
+    {
+      "nama": "Kristine Zefania Nainggolan",
+      "emoji": "🦋",
+      "cita": "Jadi Orang Sukses",
+      "hobi": "membaca Memasak",
+      "lahir": "2009-05-25"
+    },
+    {
+      "nama": "Mahadma Wira Tama",
+      "emoji": "🌙",
+      "cita": "Tentara",
+      "hobi": "Sepak Bola",
+      "lahir": "2009-01-21"
+    },
+    {
+      "nama": "Miranda Ramadani",
+      "emoji": "💫",
+      "cita": "Guru",
+      "hobi": "Membaca Menonton",
+      "lahir": "2009-09-17"
+    },
+    {
+      "nama": "Muhammad Azran Kabiran",
+      "emoji": "🎸",
+      "cita": "Perwira",
+      "hobi": "Gaming · Olah Raga",
+      "lahir": "2009-05-13"
+    },
+    {
+      "nama": "Muhammad Fikriyan Syah",
+      "emoji": "👑",
+      "cita": "Pro Player",
+      "hobi": "Main Game",
+      "lahir": "2009-05-07"
+    },
+    {
+      "nama": "Natalia Mahulae",
+      "emoji": "🌺",
+      "cita": "Pramugari",
+      "hobi": "Membaca · Jajan",
+      "lahir": "2009-12-21"
+    },
+    {
+      "nama": "Nazifa Julianti Putri Surbakti",
+      "emoji": "🎵",
+      "cita": "Orang Kaya",
+      "hobi": "Nonton Film",
+      "lahir": "2009-07-24"
+    },
+    {
+      "nama": "Nejad Al Vanof",
+      "emoji": "🔥",
+      "cita": "Naval Architect",
+      "hobi": "Main game",
+      "lahir": "2009-10-12"
+    },
+    {
+      "nama": "Neriza Batrisyia Rajali",
+      "emoji": "🌹",
+      "cita": "Pengusaha",
+      "hobi": "Batminton",
+      "lahir": "2009-11-08"
+    },
+    {
+      "nama": "Nike Rahmalia",
+      "emoji": "⚽",
+      "cita": "Pramugari",
+      "hobi": "Nyanyi",
+      "lahir": "2009-01-12"
+    },
+    {
+      "nama": "Nur Fadhillah",
+      "emoji": "☀️",
+      "cita": "Guru Besar",
+      "hobi": "Riset · Membaca",
+      "lahir": "2008-03-31"
+    },
+    {
+      "nama": "Pingkan Agustina Br Aritonang",
+      "emoji": "🎯",
+      "cita": "Istri Gojo/Psikolog",
+      "hobi": "Membaca · Memasak",
+      "lahir": "2008-08-09"
+    },
+    {
+      "nama": "Renita Sri Joy Tobing",
+      "emoji": "🦄",
+      "cita": "CEO",
+      "hobi": "Musik · Main Gitar",
+      "lahir": "2009-01-22"
+    },
+    {
+      "nama": "Richa Adelia Fitri",
+      "emoji": "🌈",
+      "cita": "CEO",
+      "hobi": "Bermain dengan Azran",
+      "lahir": "2009-10-02"
+    },
+    {
+      "nama": "Risti Arma",
+      "emoji": "🕌",
+      "cita": "Dokter Cinta",
+      "hobi": "Membantu teman",
+      "lahir": "2009-04-30"
+    },
+    {
+      "nama": "Risti Meilani",
+      "emoji": "🌸",
+      "cita": "Motivator",
+      "hobi": "Memasak · Membaca",
+      "lahir": "2009-05-02"
+    },
+    {
+      "nama": "Sazkia Delprinces Surbakti",
+      "emoji": "🍀",
+      "cita": "Pengusaha",
+      "hobi": "Menyanyi · Mendengarkan",
+      "lahir": "2009-08-26"
+    },
+    {
+      "nama": "Yulia Inriani Br Aritonang",
+      "emoji": "🏋️",
+      "cita": "Sukses dan Kaya",
+      "hobi": "Membaca Menghayal",
+      "lahir": "2009-07-18"
+    },
+    {
+      "nama": "Zainab Syakura",
+      "emoji": "📚",
+      "cita": "Polwan",
+      "hobi": "Main Game",
+      "lahir": "2009-05-17"
+    },
+    {
+      "nama": "Zaskia Putri Andini",
+      "emoji": "🌻",
+      "cita": "Apoteker",
+      "hobi": "Holiday",
+      "lahir": "2009-06-15"
+    }
+  ],
+  "jadwal": {
+    "senin": [
+      {
+        "start": "07:15",
+        "end": "08:00",
+        "mapel": "🚩 Upacara Bendera",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "08:00",
+        "end": "09:30",
+        "mapel": "Matematika",
+        "guru": "Rizky Taputri Sudrajat S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "09:30",
+        "end": "10:15",
+        "mapel": "Kimia",
+        "guru": "Elita Riatumirna Hutajulu S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "10:15",
+        "end": "10:30",
+        "mapel": "☕ Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "10:30",
+        "end": "12:00",
+        "mapel": "Kimia",
+        "guru": "Elita Riatumirna Hutajulu S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:00",
+        "end": "12:45",
+        "mapel": "B. Inggris",
+        "guru": "Riswanto S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "mapel": "🍱 Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "13:45",
+        "end": "14:30",
+        "mapel": "B. Inggris",
+        "guru": "Riswanto S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "14:30",
+        "end": "16:00",
+        "mapel": "Informatika",
+        "guru": "Dian Mirfany Selly S.Pd",
+        "ruang": "R.T1"
+      }
+    ],
+    "selasa": [
+      {
+        "start": "07:15",
+        "end": "09:30",
+        "mapel": "Matematika",
+        "guru": "Rizky Taputri Sudrajat S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "09:30",
+        "end": "10:15",
+        "mapel": "B. Indonesia",
+        "guru": "Sumarni S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "10:15",
+        "end": "10:30",
+        "mapel": "☕ Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "10:30",
+        "end": "12:45",
+        "mapel": "Matematika L",
+        "guru": "Suherlina S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "mapel": "🍱 Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "13:45",
+        "end": "16:00",
+        "mapel": "PJOK",
+        "guru": "Suhendi Yahya S.Pd",
+        "ruang": "LPG"
+      }
+    ],
+    "rabu": [
+      {
+        "start": "07:15",
+        "end": "09:30",
+        "mapel": "Matematika L",
+        "guru": "Suherlina S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "09:30",
+        "end": "10:15",
+        "mapel": "Fisika",
+        "guru": "Juniarti S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "10:15",
+        "end": "10:30",
+        "mapel": "☕ Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "10:30",
+        "end": "11:15",
+        "mapel": "Fisika",
+        "guru": "Juniarti S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "11:15",
+        "end": "12:00",
+        "mapel": "B. Inggris",
+        "guru": "Riswanto S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:00",
+        "end": "12:45",
+        "mapel": "Sejarah",
+        "guru": "Ahmad Fajar S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "mapel": "🍱 Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "13:45",
+        "end": "14:30",
+        "mapel": "Sejarah",
+        "guru": "Ahmad Fajar S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "14:30",
+        "end": "16:00",
+        "mapel": "Seni Budaya",
+        "guru": "Nadra Nisa S.Pd",
+        "ruang": "R.T1"
+      }
+    ],
+    "kamis": [
+      {
+        "start": "07:15",
+        "end": "09:30",
+        "mapel": "Fisika",
+        "guru": "Juniarti S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "09:30",
+        "end": "10:15",
+        "mapel": "Informatika",
+        "guru": "Dian Mirfany Selly S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "10:15",
+        "end": "10:30",
+        "mapel": "☕ Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "10:30",
+        "end": "11:15",
+        "mapel": "Informatika",
+        "guru": "Dian Mirfany Selly S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "11:15",
+        "end": "12:45",
+        "mapel": "B. Indonesia",
+        "guru": "Sumarni S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "mapel": "🍱 Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "13:45",
+        "end": "16:00",
+        "mapel": "Agama",
+        "guru": "Evelyn Chintia / Nurlisaadah S.Pd",
+        "ruang": "R.T1"
+      }
+    ],
+    "jumat": [
+      {
+        "start": "07:15",
+        "end": "09:30",
+        "mapel": "PKN",
+        "guru": "M. Hafiz Rozi Nst. S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "09:30",
+        "end": "10:15",
+        "mapel": "Prakarya",
+        "guru": "Eka Maryati S.Pd",
+        "ruang": "R.T1"
+      },
+      {
+        "start": "10:15",
+        "end": "10:30",
+        "mapel": "☕ Istirahat",
+        "guru": "",
+        "ruang": "",
+        "break": true
+      },
+      {
+        "start": "10:30",
+        "end": "12:00",
+        "mapel": "Kimia",
+        "guru": "Elita Riatumirna Hutajulu S.Pd",
+        "ruang": "R.T1"
+      }
+    ]
+  },
+  "leaderboard": [
+    {
+      "nama": "Nazifa Julianti Putri Surbakti",
+      "emoji": "🎵",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 88,
+        "b_indo": 88,
+        "b_inggris": 92,
+        "mtk_umum": 92,
+        "sejarah": 92,
+        "seni_budaya": 91,
+        "fisika": 88,
+        "kimia": 94,
+        "prakarya": 94,
+        "informatika": 95,
+        "mtk_l": 95
+      }
+    },
+    {
+      "nama": "Risti Meilani",
+      "emoji": "🌸",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 88,
+        "b_indo": 88,
+        "b_inggris": 92,
+        "mtk_umum": 91,
+        "sejarah": 92,
+        "fisika": 89,
+        "kimia": 94,
+        "informatika": 95,
+        "mtk_l": 94
+      }
+    },
+    {
+      "nama": "Aaqilah Wanda Putri",
+      "emoji": "😎",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 87,
+        "b_indo": 87,
+        "b_inggris": 92,
+        "mtk_umum": 92,
+        "sejarah": 92,
+        "seni_budaya": 91,
+        "fisika": 89,
+        "kimia": 94,
+        "informatika": 95,
+        "mtk_l": 92
+      }
+    },
+    {
+      "nama": "Risti Arma",
+      "emoji": "🕌",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 86,
+        "b_indo": 86,
+        "b_inggris": 90,
+        "mtk_umum": 91,
+        "sejarah": 92,
+        "pjok": 92,
+        "fisika": 86,
+        "kimia": 94,
+        "prakarya": 94,
+        "informatika": 95,
+        "mtk_l": 92
+      }
+    },
+    {
+      "nama": "Zaskia Putri Andini",
+      "emoji": "🌻",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 86,
+        "b_indo": 86,
+        "b_inggris": 90,
+        "mtk_umum": 92,
+        "sejarah": 90,
+        "seni_budaya": 91,
+        "prakarya": 93,
+        "informatika": 95,
+        "mtk_l": 93
+      }
+    },
+    {
+      "nama": "Zainab Syakura",
+      "emoji": "📚",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 86,
+        "b_indo": 86,
+        "b_inggris": 90,
+        "mtk_umum": 90,
+        "pjok": 92,
+        "seni_budaya": 91,
+        "kimia": 91,
+        "informatika": 95,
+        "mtk_l": 90
+      }
+    },
+    {
+      "nama": "Muhammad Azran Kabiran",
+      "emoji": "🎸",
+      "nilai": {
+        "agama_islam": 95,
+        "b_inggris": 90,
+        "sejarah": 90,
+        "pjok": 92,
+        "kimia": 91,
+        "prakarya": 93,
+        "informatika": 95
+      }
+    },
+    {
+      "nama": "Neriza Batrisyia Rajali",
+      "emoji": "🌹",
+      "nilai": {
+        "agama_islam": 95,
+        "pkn": 86,
+        "b_indo": 86
+      }
+    },
+    {
+      "nama": "Alief Hakim Lubis",
+      "emoji": "⚡",
+      "nilai": {
+        "agama_islam": 95,
+        "seni_budaya": 91,
+        "kimia": 91
+      }
+    },
+    {
+      "nama": "Amri Satria",
+      "emoji": "🌸",
+      "nilai": {
+        "agama_islam": 94
+      }
+    },
+    {
+      "nama": "Cinda Maria",
+      "emoji": "💎",
+      "nilai": {
+        "agama_kristen": 95,
+        "pkn": 86,
+        "b_indo": 86,
+        "b_inggris": 90,
+        "mtk_umum": 91,
+        "sejarah": 90,
+        "prakarya": 88,
+        "informatika": 95
+      }
+    },
+    {
+      "nama": "Cindi Maria",
+      "emoji": "🌅",
+      "nilai": {
+        "agama_kristen": 95,
+        "pkn": 86,
+        "b_indo": 86,
+        "prakarya": 88
+      }
+    },
+    {
+      "nama": "Hosea Silaban",
+      "emoji": "🙏",
+      "nilai": {
+        "agama_kristen": 95,
+        "seni_budaya": 91
+      }
+    },
+    {
+      "nama": "Sazkia Delprinces Surbakti",
+      "emoji": "🍀",
+      "nilai": {
+        "agama_kristen": 95,
+        "b_inggris": 90,
+        "mtk_umum": 92,
+        "sejarah": 92,
+        "seni_budaya": 91,
+        "fisika": 87,
+        "prakarya": 88,
+        "informatika": 95,
+        "mtk_l": 93
+      }
+    },
+    {
+      "nama": "Yulia Inriani Br Aritonang",
+      "emoji": "🏋️",
+      "nilai": {
+        "agama_kristen": 95,
+        "fisika": 87,
+        "mtk_l": 92
+      }
+    },
+    {
+      "nama": "Renita Sri Joy Tobing",
+      "emoji": "🦄",
+      "nilai": {
+        "agama_kristen": 95,
+        "mtk_umum": 92
+      }
+    },
+    {
+      "nama": "Gloria Manulang",
+      "emoji": "🎨",
+      "nilai": {
+        "agama_kristen": 95
+      }
+    },
+    {
+      "nama": "Kristine Zefania Nainggolan",
+      "emoji": "🦋",
+      "nilai": {
+        "agama_kristen": 95,
+        "sejarah": 90
+      }
+    },
+    {
+      "nama": "Pingkan Agustina Br Aritonang",
+      "emoji": "🎯",
+      "nilai": {
+        "agama_kristen": 88
+      }
+    },
+    {
+      "nama": "Jhonatan Sihombing",
+      "emoji": "🚀",
+      "nilai": {
+        "agama_kristen": 88
+      }
+    },
+    {
+      "nama": "Adinda Ayu Agustin",
+      "emoji": "😊",
+      "nilai": {
+        "pkn": 88,
+        "b_indo": 88,
+        "b_inggris": 90,
+        "mtk_umum": 90,
+        "sejarah": 92,
+        "fisika": 87,
+        "prakarya": 89,
+        "informatika": 95,
+        "mtk_l": 90
+      }
+    },
+    {
+      "nama": "Muhammad Fikriyan Syah",
+      "emoji": "👑",
+      "nilai": {
+        "pjok": 92,
+        "prakarya": 88
+      }
+    },
+    {
+      "nama": "Indra Dermawan",
+      "emoji": "🌟",
+      "nilai": {
+        "pjok": 92
+      }
+    },
+    {
+      "nama": "Ahmad Hanafi",
+      "emoji": "🧑",
+      "nilai": {
+        "pjok": 92,
+        "seni_budaya": 91
+      }
+    },
+    {
+      "nama": "Mahadma Wira Tama",
+      "emoji": "🌙",
+      "nilai": {
+        "pjok": 92,
+        "fisika": 88
+      }
+    },
+    {
+      "nama": "Al Hafna",
+      "emoji": "👩",
+      "nilai": {
+        "pjok": 92
+      }
+    },
+    {
+      "nama": "Nike Rahmalia",
+      "emoji": "⚽",
+      "nilai": {
+        "pjok": 92
+      }
+    },
+    {
+      "nama": "Richa Adelia Fitri",
+      "emoji": "🌈",
+      "nilai": {
+        "pjok": 92
+      }
+    },
+    {
+      "nama": "Nejad Al Vanof",
+      "emoji": "🔥",
+      "nilai": {
+        "seni_budaya": 91,
+        "fisika": 87,
+        "kimia": 91,
+        "prakarya": 88
+      }
+    },
+    {
+      "nama": "Arrafi Rizky Ramadhan",
+      "emoji": "🎯",
+      "nilai": {
+        "seni_budaya": 91,
+        "kimia": 91
+      }
+    },
+    {
+      "nama": "Miranda Ramadani",
+      "emoji": "💫",
+      "nilai": {
+        "fisika": 87,
+        "mtk_l": 92
+      }
+    },
+    {
+      "nama": "Zaskia Putri Andini",
+      "emoji": "🌻",
+      "nilai": {
+        "kimia": 91
+      }
+    }
+  ],
+  "struktur": {
+    "waliKelas": {
+      "nama": "Ibu Elita Riatumirna Hutajulu",
+      "gelar": "S.Pd",
+      "mapel": "Kimia",
+      "email": "",
+      "avatar": "👩‍🏫"
+    },
+    "ketuaWakil": [
+      {
+        "id": "ketua",
+        "nama": "Muhammad Fikriyansyah",
+        "peran": "Ketua Kelas",
+        "absen": "19",
+        "organisasi": "",
+        "ig": "@_rynnsyhh",
+        "avatar": "👑",
+        "chief": true
+      },
+      {
+        "id": "wakil",
+        "nama": "Adinda Ayu Agutin",
+        "peran": "Wakil Ketua",
+        "absen": "02",
+        "organisasi": "OSIS PMR",
+        "ig": "@syhbyndaa_",
+        "avatar": "⭐",
+        "chief": false
+      }
+    ],
+    "pengurus": [
+      {
+        "id": "sek1",
+        "nama": "Aaqilah Wanda Putri",
+        "peran": "Sekretaris",
+        "absen": "01",
+        "organisasi": "OSIS",
+        "ig": "@qylawndptr_",
+        "avatar": "📝"
+      },
+      {
+        "id": "sek2",
+        "nama": "Nazifa Jallianti P.S",
+        "peran": "Bendahara",
+        "absen": "21",
+        "organisasi": "OSIS ROHIS",
+        "ig": "@nzfjllnti",
+        "avatar": "📋"
+      },
+      {
+        "id": "ben1",
+        "nama": "Aulia Rahma",
+        "peran": "Bendahara I",
+        "absen": "04",
+        "organisasi": "OSIS",
+        "ig": "@aulia.rahma",
+        "avatar": "💰"
+      },
+      {
+        "id": "ben2",
+        "nama": "Dito Pratama",
+        "peran": "Bendahara II",
+        "absen": "07",
+        "organisasi": "OSIS",
+        "ig": "@dito.pratama",
+        "avatar": "💳"
+      }
+    ]
+  },
+  "tracklist": [
+    {
+      "judul": "Jangan Paksa Rindu",
+      "artis": "Ifan Seventeen",
+      "durasi": "3:48",
+      "trackid": "79tbBuciPV221EozY3RKQv",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b2737ef9a82acb4a3d78e3f55c93"
+    },
+    {
+      "judul": "Sampai Akhir Waktu",
+      "artis": "Yovie & Nuno",
+      "durasi": "3:35",
+      "trackid": "6LF44wAs3h0K67RitTAfr5",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273b0a88e65f38e96d97cc6e86c"
+    },
+    {
+      "judul": "Y Que Fue?",
+      "artis": "Don Miguelo",
+      "durasi": "3:12",
+      "trackid": "2wAmparvQdtQemzY9I8PKv",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273a4cf2f54a70bb2ae7e6b2b8a"
+    },
+    {
+      "judul": "Melawan Ragu",
+      "artis": "Athalia Aubry",
+      "durasi": "3:32",
+      "trackid": "36ICFhQf7fnhvQboHGF0CR",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b2739e99d43adb2bcc5cf9e7f540"
+    },
+    {
+      "judul": "Tourner Dans Le Vide",
+      "artis": "Indila",
+      "durasi": "3:43",
+      "trackid": "0PwkIlIdZ1n7KjrCGTnxMN",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b2737bd4b4b759e40d0e4e50f317"
+    },
+    {
+      "judul": "Beranjak Dewasa",
+      "artis": "Nadin Amizah",
+      "durasi": "5:02",
+      "trackid": "3FPlY1uqTe1oFfIgI0BnoA",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273f39e1e285da27a37e990b7aa"
+    },
+    {
+      "judul": "Simpan Rasa",
+      "artis": "Vadel Nasir",
+      "durasi": "3:54",
+      "trackid": "1BoG96FNjJZaddzcPMC983",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273e5e3e3fc8af9564c5e9e0987"
+    },
+    {
+      "judul": "Langit Favorit",
+      "artis": "Luthfi Aulia",
+      "durasi": "3:00",
+      "trackid": "6zbEZreD4YF3WlltVnfwt2",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273d6ee8e02e6c8f7e7a29e76d2"
+    },
+    {
+      "judul": "Love Story",
+      "artis": "Indila",
+      "durasi": "5:16",
+      "trackid": "6nGeLlakfzlBcFdZXteDq7",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b27356b6f3fd47b0a8e4e6d9c0e3"
+    },
+    {
+      "judul": "Sedia Aku Sebelum Hujan",
+      "artis": "Idgitaf",
+      "durasi": "3:37",
+      "trackid": "43Ed54bKecnKeq5MWhb2BC",
+      "thumb": "https://i.scdn.co/image/ab67616d0000b273c75a348a4498c7e6dc16a9c4"
+    }
+  ],
+  "quotes": [
+    {
+      "teks": "Pendidikan adalah senjata paling kuat yang bisa kamu gunakan untuk mengubah dunia.",
+      "penulis": "Nelson Mandela"
+    },
+    {
+      "teks": "Jangan pernah menyerah. Hari ini sulit, besok akan lebih sulit, tapi lusa akan indah.",
+      "penulis": "Jack Ma"
+    },
+    {
+      "teks": "Kesuksesan adalah hasil dari persiapan, kerja keras, dan belajar dari kegagalan.",
+      "penulis": "Colin Powell"
+    },
+    {
+      "teks": "Bermimpilah setinggi langit. Jika engkau jatuh, engkau akan jatuh di antara bintang-bintang.",
+      "penulis": "Soekarno"
+    },
+    {
+      "teks": "Barang siapa keluar untuk mencari ilmu maka dia berada di jalan Allah.",
+      "penulis": "HR. Tirmidzi"
+    },
+    {
+      "teks": "Cara terbaik untuk memulai adalah berhenti berbicara dan mulai melakukan.",
+      "penulis": "Walt Disney"
+    },
+    {
+      "teks": "Kamu tidak harus hebat untuk memulai, tapi kamu harus memulai untuk menjadi hebat.",
+      "penulis": "Zig Ziglar"
+    },
+    {
+      "teks": "Ilmu itu lebih baik daripada harta. Ilmu menjaga engkau dan engkau menjaga harta.",
+      "penulis": "Ali bin Abi Thalib"
+    },
+    {
+      "teks": "Setiap hari adalah kesempatan baru untuk belajar sesuatu yang belum pernah kamu ketahui.",
+      "penulis": "Anonim"
+    },
+    {
+      "teks": "Jangan takut gagal. Takutlah tidak pernah mencoba.",
+      "penulis": "Anonim"
+    },
+    {
+      "teks": "Orang yang berhenti belajar adalah orang yang sudah tua, meski berumur 20 tahun.",
+      "penulis": "Henry Ford"
+    },
+    {
+      "teks": "Hidup adalah perjalanan, bukan tujuan. Nikmati setiap langkahnya.",
+      "penulis": "Ralph Waldo Emerson"
+    },
+    {
+      "teks": "Seribu orang tua bisa bermimpi, satu orang pemuda bisa mengubah dunia.",
+      "penulis": "Soekarno"
+    },
+    {
+      "teks": "Tuntutlah ilmu dari buaian hingga ke liang lahat.",
+      "penulis": "Hadits"
+    },
+    {
+      "teks": "Sukses bukan kunci kebahagiaan. Kebahagiaan adalah kunci sukses.",
+      "penulis": "Albert Schweitzer"
+    },
+    {
+      "teks": "Yang membedakan orang sukses dari yang lain bukan kurangnya kekuatan, tapi kurangnya kemauan.",
+      "penulis": "Vince Lombardi"
+    },
+    {
+      "teks": "Belajarlah dari kemarin, hiduplah untuk hari ini, berharaplah untuk hari esok.",
+      "penulis": "Albert Einstein"
+    },
+    {
+      "teks": "Keras dalam berlatih, mudah dalam pertempuran.",
+      "penulis": "Alexander Suvorov"
+    },
+    {
+      "teks": "Investasi terbaik yang bisa kamu lakukan adalah investasi pada dirimu sendiri.",
+      "penulis": "Warren Buffett"
+    },
+    {
+      "teks": "Mimpi tidak akan berhasil kecuali kamu bangun dan bekerja keras.",
+      "penulis": "Anonim"
+    },
+    {
+      "teks": "Jangan lihat masa lampau dengan penyesalan; jangan pula lihat masa depan dengan ketakutan.",
+      "penulis": "William Arthur Ward"
+    },
+    {
+      "teks": "Pengetahuan adalah kekuatan.",
+      "penulis": "Francis Bacon"
+    },
+    {
+      "teks": "Tidak ada jalan pintas menuju puncak pohon apapun. Merangkak saja ke atas atau duduk di bawah.",
+      "penulis": "Abraham Lincoln"
+    },
+    {
+      "teks": "Kegagalan adalah kesempatan untuk memulai lagi dengan lebih cerdas.",
+      "penulis": "Henry Ford"
+    },
+    {
+      "teks": "Jadilah perubahan yang ingin kamu lihat di dunia.",
+      "penulis": "Mahatma Gandhi"
+    },
+    {
+      "teks": "Dua hal yang tak terbatas: alam semesta dan kebodohan manusia.",
+      "penulis": "Albert Einstein"
+    },
+    {
+      "teks": "Jangan hitung harinya, buat hari-harinya berarti.",
+      "penulis": "Muhammad Ali"
+    },
+    {
+      "teks": "Waktu adalah uang yang tidak bisa dikembalikan.",
+      "penulis": "Benjamin Franklin"
+    },
+    {
+      "teks": "Sebaik-baik manusia adalah yang paling bermanfaat bagi orang lain.",
+      "penulis": "HR. Ahmad"
+    },
+    {
+      "teks": "XI Teknik 1 bukan sekadar kelas, tapi keluarga yang akan dikenang selamanya.",
+      "penulis": "XI T1 2025"
+    }
+  ]
+}
