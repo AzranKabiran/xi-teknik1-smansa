@@ -1,1042 +1,554 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Dapuran Fitri — Kue Lebaran Buatan Tangan</title>
-  <meta name="description" content="Kue Lebaran buatan tangan dari Langsa & Kuala Simpang. Nastar, Putri Salju, Semprit & lebih. Slot terbatas — pre-order sekarang.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Open Graph — preview saat link dibagikan via WhatsApp, Instagram, dll -->
+  <!-- ═══════════════════════════════════════════════════
+       FAVICON
+  ════════════════════════════════════════════════════ -->
+  <!-- PNG favicon — semua browser modern -->
+  <link rel="icon" type="image/png" href="favicon.png" sizes="512x512">
+  <!-- Apple devices -->
+  <link rel="apple-touch-icon" href="favicon.png">
+  <!-- Theme color browser chrome (Android) -->
+  <meta name="theme-color" content="#060608">
+  <meta name="msapplication-TileColor" content="#060608">
+
+  <!-- ═══════════════════════════════════════════════════
+       SEO DASAR
+  ════════════════════════════════════════════════════ -->
+  <meta name="description" content="Website resmi kelas XI Teknik 1 — SMA Negeri 1 Gebang. Profil kelas, jadwal pelajaran, galeri foto, leaderboard nilai, dan info anggota kelas.">
+  <meta name="keywords" content="XI Teknik 1, SMANSA Gebang, SMA Negeri 1 Gebang, kelas XI, teknik, Gebang Langkat">
+  <meta name="author" content="XI Teknik 1 — SMANSA Gebang">
+  <meta name="robots" content="index, follow">
+
+  <!-- ═══════════════════════════════════════════════════
+       OPEN GRAPH — WhatsApp · Facebook · Line · Telegram
+  ════════════════════════════════════════════════════ -->
   <meta property="og:type"        content="website">
-  <meta property="og:site_name"   content="Dapuran Fitri">
-  <meta property="og:title"       content="Dapuran Fitri — Kue Lebaran Buatan Tangan">
-  <meta property="og:description" content="Slot terbatas. Nastar, Putri Salju, Semprit & 8 varian lainnya — dibuat tangan, bahan tidak pernah dikurangi. Pre-order Lebaran sekarang sebelum kehabisan.">
-  <meta property="og:url"         content="https://dapuranfitri.com">
-  <meta property="og:image"       content="https://res.cloudinary.com/dfcpgyby6/image/upload/v1773596348/og-image_kmfl7z.jpg">
+  <meta property="og:site_name"   content="XI TEKNIK 1 — SMANSA Gebang">
+  <meta property="og:title"       content="XI TEKNIK 1 — SMA Negeri 1 Gebang">
+  <meta property="og:description" content="Website resmi kelas XI Teknik 1, SMA Negeri 1 Gebang. Tahun ajaran 2025/2027.">
+  <meta property="og:image"       content="https://xi-teknik1-smansa.netlify.app/og-image.png">
+  <meta property="og:image:type"  content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta name="twitter:image"       content="https://res.cloudinary.com/dfcpgyby6/image/upload/v1773596348/og-image_kmfl7z.jpg">
+  <meta property="og:image:alt"   content="XI TEKNIK 1 — SMANSA Gebang">
   <meta property="og:locale"      content="id_ID">
+  <meta property="og:url"         content="https://xi-teknik1-smansa.netlify.app">
 
-  <!-- Twitter/X Card -->
+  <!-- ═══════════════════════════════════════════════════
+       TWITTER CARD — Twitter · X
+  ════════════════════════════════════════════════════ -->
   <meta name="twitter:card"        content="summary_large_image">
-  <meta name="twitter:title"       content="Dapuran Fitri — Kue Lebaran Buatan Tangan">
-  <meta name="twitter:description" content="Slot terbatas. Nastar, Putri Salju, Semprit & 8 varian lainnya — dibuat tangan, bahan tidak pernah dikurangi.">
-  <meta name="twitter:image"       content="https://res.cloudinary.com/dfcpgyby6/image/upload/v1773596348/og-image_kmfl7z.jpg">
+  <meta name="twitter:title"       content="XI TEKNIK 1 — SMA Negeri 1 Gebang">
+  <meta name="twitter:description" content="Website resmi kelas XI Teknik 1, SMA Negeri 1 Gebang. Tahun ajaran 2025/2027.">
+  <meta name="twitter:image"        content="https://xi-teknik1-smansa.netlify.app/og-image.png">
+  <meta name="twitter:image:alt"   content="XI TEKNIK 1 — SMANSA Gebang">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&amp;family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&amp;family=Jost:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
-
-  <!-- ─────────────────────────────────────────
-    CSS FILES:
-    base.css       → Reset, Variabel, Nav, Hero, Ticker, SVG, Reveal, Animasi
-    components.css → About, Produk, Proses, Story, Testimoni
-    sections.css   → Pre-Order, FAQ, Closing, Footer
-  ───────────────────────────────────────── -->
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/sections.css">
+  <title>XI TEKNIK 1 — SMANSA GEBANG</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;700&family=Share+Tech+Mono&family=Playfair+Display:ital@1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<!-- ════════════════════════
-     STICKY BOTTOM CTA
-════════════════════════ -->
-
-<div class="sticky-cta" id="stickyCta">
-  <a href="#preorder" class="sticky-cta-main" onclick="closeStickyAndScroll()"><span>Pesan sebelum kehabisan slot</span> →</a>
-</div>
-
-<!-- ════════════════════════
-     FULLSCREEN MENU
-════════════════════════ -->
-<div class="nav-menu" id="navMenu" role="navigation" aria-label="Menu utama" aria-hidden="true">
-  <a href="#tentang"  class="menu-item" onclick="closeMenu()">Tentang <em>Kami</em></a>
-  <div class="menu-divider"></div>
-  <a href="#produk"   class="menu-item" onclick="closeMenu()"><em>Produk</em></a>
-  <div class="menu-divider"></div>
-  <a href="#cerita"   class="menu-item" onclick="closeMenu()">Cerita <em>Pendiri</em></a>
-  <div class="menu-divider"></div>
-  <a href="#preorder" class="menu-item" onclick="closeMenu()"><em>Pre-Order</em></a>
-  <a href="https://wa.me/6282277578490" class="menu-wa" target="_blank">Chat WhatsApp</a>
-</div>
-
-<!-- ════════════════════════
-     NAV
-════════════════════════ -->
-<nav id="nav">
-  <a href="#" class="nav-logo">
-    <span class="nav-logo-name">Dapuran Fitri</span>
-    <span class="nav-logo-tag">Kue Lebaran Buatan Tangan</span>
-  </a>
-  <div class="nav-burger" id="burger" onclick="toggleMenu()" aria-label="Buka menu navigasi" aria-expanded="false" role="button" tabindex="0">
-    <div class="burger-line"></div>
-    <div class="burger-line"></div>
-    <div class="burger-line"></div>
+<!-- ══ LOADING SCREEN ══════════════════════════════════════ -->
+<div class="page-loader" id="pageLoader">
+  <canvas class="loader-canvas" id="loaderCanvas"></canvas>
+  <div class="loader-inner">
+    <div class="loader-glitch" data-text="XI TEKNIK 1">XI TEKNIK 1</div>
+    <div class="loader-sub">// SMA NEGERI 1 GEBANG //</div>
+    <div class="loader-ring-wrap">
+      <svg class="loader-ring" viewBox="0 0 120 120">
+        <circle class="loader-ring-bg" cx="60" cy="60" r="54"/>
+        <circle class="loader-ring-fill" id="loaderRing" cx="60" cy="60" r="54"/>
+      </svg>
+      <div class="loader-pct" id="loaderPct">0%</div>
+    </div>
+    <div class="loader-status" id="loaderStatus">MEMUAT DATA...</div>
+    <div class="loader-dots"><span></span><span></span><span></span></div>
   </div>
+</div>
+
+<div class="cur" id="curDot"><div class="cur-dot"></div></div>
+<div class="cur" id="curRing"><div class="cur-ring"></div></div>
+<canvas id="particleCanvas"></canvas>
+
+<nav id="mainNav">
+  <div class="logo" id="admTrigger2">XI <span>TEKNIK</span> 1</div>
+  <ul class="nav-links">
+    <li><a href="#spotify">Musik</a></li>
+    <li><a href="#roster">Jadwal</a></li>
+    <li><a href="#struktur">Struktur</a></li>
+    <li><a href="#galeri">Galeri</a></li>
+    <li><a href="#anggota">Anggota</a></li>
+    <li><a href="#leaderboard">Nilai</a></li>
+    <li><a href="#credits">Credits</a></li>
+  </ul>
+  <div class="nav-tag">2025 / 2027</div>
+
+  <!-- Hamburger — mobile only -->
+  <button class="nav-hamburger" id="navHamburger" aria-label="Buka menu" aria-expanded="false">
+    <span class="ham-line ham-line-1"></span>
+    <span class="ham-line ham-line-2"></span>
+    <span class="ham-line ham-line-3"></span>
+  </button>
 </nav>
 
-<!-- ════════════════════════
-     HERO
-════════════════════════ -->
-<section class="hero">
-  <div class="hero-atmo"></div>
-
-  <div class="hero-kue-wrap">
-    <div class="hero-plate">
-      <div class="hero-plate-ring"></div>
-      <div class="hero-plate-ring2"></div>
-      <svg class="hero-icon-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- plate -->
-  <circle cx="100" cy="110" r="78" stroke="currentColor" stroke-width="1.5"/>
-  <circle cx="100" cy="110" r="64" stroke="currentColor" stroke-width=".8" opacity=".35"/>
-  <!-- nastar on plate -->
-  <circle cx="100" cy="100" r="34" stroke="currentColor" stroke-width="1.4"/>
-  <!-- diamond pattern on top -->
-  <line x1="82" y1="82" x2="100" y2="64" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <line x1="90" y1="82" x2="108" y2="64" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <line x1="98" y1="82" x2="116" y2="64" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <line x1="82" y1="82" x2="100" y2="100" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <line x1="90" y1="74" x2="108" y2="92" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <line x1="100" y1="64" x2="118" y2="82" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <!-- glaze dome -->
-  <path d="M76 90 Q100 66 124 90" stroke="currentColor" stroke-width="1.5" fill="none"/>
-  <!-- leaf/stem -->
-  <path d="M94 66 Q100 56 106 66" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <line x1="100" y1="60" x2="100" y2="68" stroke="currentColor" stroke-width="1.3"/>
-  <!-- plate rim detail -->
-  <circle cx="100" cy="110" r="70" stroke="currentColor" stroke-width=".5" stroke-dasharray="3 6" opacity=".2"/>
-</svg>
-    </div>
+<!-- Mobile drawer menu -->
+<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <div class="mobile-menu-header">
+    <div class="mobile-menu-logo">XI <span>TEKNIK</span> 1</div>
+    <div class="mobile-menu-tag">// 2025 / 2027 //</div>
   </div>
+  <nav class="mobile-menu-nav">
+    <a href="#spotify"     class="mobile-nav-item" data-num="01">Musik</a>
+    <a href="#roster"      class="mobile-nav-item" data-num="02">Jadwal</a>
+    <a href="#struktur"    class="mobile-nav-item" data-num="03">Struktur</a>
+    <a href="#galeri"      class="mobile-nav-item" data-num="04">Galeri</a>
+    <a href="#anggota"     class="mobile-nav-item" data-num="05">Anggota</a>
+    <a href="#leaderboard" class="mobile-nav-item" data-num="06">Nilai</a>
+    <a href="#credits"     class="mobile-nav-item" data-num="07">Credits</a>
+  </nav>
+  <div class="mobile-menu-footer">SMA NEGERI 1 GEBANG</div>
+</div>
 
-  <div class="hero-content">
-    <p class="hero-eyebrow">Lebaran 2027 · Pre-Order Terbuka</p>
-    <h1 class="hero-h1">
-      Rasa
-      <em>yang Tak<br>Terganti</em>
-    </h1>
-    <p class="hero-sub">Kue buatan tangan, dengan bahan yang tidak pernah kami ganti demi efisiensi.</p>
+
+<div class="hero">
+  <div class="grid-lines"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="float-badge fb1">📚 <span>SMA NEGERI 1</span> GEBANG</div>
+  <div class="float-badge fb2">🎓 <span>34</span> SISWA AKTIF</div>
+  <div class="float-badge fb3">⭐ KELAS <span>TERBAIK</span></div>
+  <div class="hero-eyebrow">//  SEBELAS — TEKNIK SATU //</div>
+  <h1 class="hero-title">XI<br><em>TEKNIK 1</em></h1>
+  <p class="hero-sub">Satu kelas, satu keluarga. Bersama meraih mimpi, bersama menuju puncak. Tahun ajaran 2025/2027.</p>
+  <div class="hero-pills">
+    <div class="pill active">🔬 SAINS</div>
+    <div class="pill">💡 INOVASI</div>
+    <div class="pill">🎵 KREATIF</div>
+    <div class="pill">🏆 PRESTASI</div>
+    <div class="pill">❤️ SOLID</div>
   </div>
+  <div class="hero-widgets">
+    <div class="widget-card countdown-widget">
+      <div class="widget-label">⏳ COUNTDOWN KELULUSAN</div>
+      <div class="countdown-grid">
+        <div class="cd-unit"><span class="cd-num" id="cdDays">00</span><span class="cd-label">HARI</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" id="cdHours">00</span><span class="cd-label">JAM</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" id="cdMins">00</span><span class="cd-label">MENIT</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><span class="cd-num" id="cdSecs">00</span><span class="cd-label">DETIK</span></div>
+      </div>
+      <div class="cd-event">🎓 Menuju Kelulusan — 1 Mei 2027</div>
+    </div>
+    <div class="widget-card weather-widget">
+      <div class="widget-label">🌦️ CUACA &amp; WAKTU · GEBANG, LANGKAT</div>
+      <div class="weather-main">
+        <div class="weather-icon" id="weatherIcon">🔄</div>
+        <div class="weather-info">
+          <div class="weather-temp" id="weatherTemp">--°C</div>
+          <div class="weather-desc" id="weatherDesc">Memuat cuaca...</div>
+          <div class="weather-detail" id="weatherDetail">Kelembaban: --% · Gebang, Langkat</div>
+        </div>
+      </div>
+      <div class="clock-display" id="clockDisplay">00:00:00</div>
+      <div class="clock-date" id="clockDate">Memuat...</div>
+    </div>
 
-  <div class="hero-bar">
-    <div class="hero-bar-item">
-      <div class="hero-bar-val">100%</div>
-      <div class="hero-bar-label">Bahan Asli</div>
-    </div>
-    <div class="hero-bar-item">
-      <div class="hero-bar-val">11</div>
-      <div class="hero-bar-label">Jenis Kue</div>
-    </div>
-    <div class="hero-bar-item">
-      <div class="hero-bar-val">H‑3</div>
-      <div class="hero-bar-label">Garansi Tiba</div>
-    </div>
-  </div>
-</section>
+    <!-- IG WIDGET -->
+    <a class="widget-card ig-widget" href="https://www.instagram.com/chemical.tecnikal?igsh=MW4zZ3FhNjVnMGt1aQ==" target="_blank" rel="noopener">
 
-<!-- TICKER -->
-<div class="ticker">
-  <div class="ticker-track" id="tickerTrack">
-    <span class="ticker-item">Nastar</span>
-    <span class="ticker-item">Putri Salju</span>
-    <span class="ticker-item">Kue Semprit</span>
-    <span class="ticker-item">Buatan Tangan</span>
-    <span class="ticker-item">Bahan Pilihan</span>
-    <span class="ticker-item">Lebaran 2027</span>
+      <!-- Ambient glow blobs -->
+      <div class="ig-blob ig-blob-1"></div>
+      <div class="ig-blob ig-blob-2"></div>
+
+      <!-- Header: avatar kiri, info kanan -->
+      <div class="ig-header">
+        <div class="ig-avatar-wrap">
+          <div class="ig-avatar-ring"></div>
+          <img class="ig-avatar-photo" src="https://res.cloudinary.com/dt3jniwcc/image/upload/IMG_20260305_111017_f8cyko.jpg" alt="XI Teknik 1"/>
+          <div class="ig-online-dot"></div>
+        </div>
+        <div class="ig-header-info">
+          <div class="ig-platform">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </div>
+          <div class="ig-username">@chemical.tecnikal</div>
+          <div class="ig-fullname">XI TEKNIK 1</div>
+        </div>
+      </div>
+
+      <!-- Bio -->
+      <div class="ig-bio">Akun resmi kelas XI Teknik 1 · SMA N 1 Gebang · 2025/2027 🪐</div>
+
+      <!-- Stats -->
+      <div class="ig-stats-row">
+        <div class="ig-stat-item">
+          <span class="ig-stat-val">34</span>
+          <span class="ig-stat-key">Siswa</span>
+        </div>
+        <div class="ig-stat-sep"></div>
+        <div class="ig-stat-item">
+          <span class="ig-stat-val">2025</span>
+          <span class="ig-stat-key">Angkatan</span>
+        </div>
+        <div class="ig-stat-sep"></div>
+        <div class="ig-stat-item">
+          <span class="ig-stat-val">XI</span>
+          <span class="ig-stat-key">Kelas</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="ig-follow-btn">
+        <span class="ig-follow-text">Follow</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </div>
+
+    </a>
+
   </div>
 </div>
 
-<!-- ════════════════════════
-     COUNTDOWN LEBARAN
-════════════════════════ -->
-<div class="countdown-wrap reveal">
-  <div class="countdown-eyebrow">Menuju Lebaran <em>1448 H</em></div>
-  <div class="countdown-units">
-    <div class="countdown-unit">
-      <div class="countdown-num" id="cdDays">--</div>
-      <div class="countdown-lbl">Hari</div>
-    </div>
-    <div class="countdown-sep">·</div>
-    <div class="countdown-unit">
-      <div class="countdown-num" id="cdHours">--</div>
-      <div class="countdown-lbl">Jam</div>
-    </div>
-    <div class="countdown-sep">·</div>
-    <div class="countdown-unit">
-      <div class="countdown-num" id="cdMins">--</div>
-      <div class="countdown-lbl">Menit</div>
+<section id="spotify">
+  <div class="container">
+    <div class="sec-tag reveal"># PLAYLIST KELAS</div>
+    <h2 class="sec-title reveal">🎵 Musik Kelas</h2>
+    <p class="sec-desc reveal">Playlist pilihan XI TEKNIK 1 — teman belajar, istirahat, dan semangat tiap hari.</p>
+    <div class="spotify-wrap">
+      <div class="spotify-embed reveal">
+        <iframe data-src="https://open.spotify.com/playlist/2HXv8mMD9GSFoLGep1wEUS?si=_4hVMVR0TcS7sINnnnJMeQ"
+          src="about:blank" style="border-radius:4px" width="100%" height="480" frameborder="0" allowfullscreen
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
+      <div class="playlist-card reveal">
+        <div class="pl-header">
+          <div class="pl-cover" id="plCover">🎶</div>
+          <div class="pl-info"><h3>VIBES XI TEKNIK 1</h3><p>// KOLEKTIF KELAS</p></div>
+        </div>
+        <ul class="track-list" id="trackList" style="max-height:280px;overflow-y:auto;padding-right:.3rem;"></ul>
+        <div id="spotifyPreviewWrap" style="display:none;margin-top:1rem;">
+          <iframe id="spotifyEmbed" style="border-radius:4px;border:1px solid rgba(255,45,120,.3);"
+            src="" width="100%" height="80" frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+        <div class="now-playing" id="nowPlaying">
+          <div class="np-wave"><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="np-text" id="npText">KLIK LAGU UNTUK PLAY ↑</div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="countdown-note">Pre-order ditutup saat slot penuh — atau paling lambat H‑14</div>
+</section>
+
+<section id="roster">
+  <div class="container">
+    <div class="sec-tag reveal"># JADWAL PELAJARAN</div>
+    <h2 class="sec-title reveal">📅 Roster Kelas</h2>
+    <p class="sec-desc reveal">Jadwal XI TEKNIK 1 — hari ini otomatis ditampilkan &amp; pelajaran aktif di-highlight.</p>
+    <div class="days-nav reveal">
+      <button class="day-btn" data-day="senin">SENIN</button>
+      <button class="day-btn" data-day="selasa">SELASA</button>
+      <button class="day-btn" data-day="rabu">RABU</button>
+      <button class="day-btn" data-day="kamis">KAMIS</button>
+      <button class="day-btn" data-day="jumat">JUMAT</button>
+    </div>
+  </div>
+</section>
+
+<section id="struktur">
+  <div class="container">
+    <div class="sec-tag reveal"># ORGANISASI KELAS</div>
+    <h2 class="sec-title reveal">🏛️ Struktur Kelas</h2>
+    <p class="sec-desc reveal">Hover kartu untuk info detail. Org-chart interaktif XI TEKNIK 1.</p>
+    <div class="org-chart reveal" id="orgChartMain">
+      <svg class="org-svg-lines" id="orgSvgLines" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="container">
+    <div class="sec-tag reveal"># DOKUMENTASI</div>
+    <h2 class="sec-title reveal">📷 Galeri Foto</h2>
+    <p class="sec-desc reveal">Momen-momen berharga XI TEKNIK 1 yang tersimpan abadi.</p>
+    <div class="gallery-filter reveal" id="galleryFilter">
+      <button class="gf-btn active" data-filter="all">SEMUA</button>
+      <button class="gf-btn" data-filter="kegiatan">KEGIATAN</button>
+      <button class="gf-btn" data-filter="wisata">WISATA</button>
+      <button class="gf-btn" data-filter="prestasi">PRESTASI</button>
+      <button class="gf-btn" data-filter="sehari-hari">SEHARI-HARI</button>
+    </div>
+    <div class="photo-grid reveal" id="photoGrid">
+
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <!-- Top bar -->
+  <div class="lb-topbar">
+    <div class="lb-topbar-info">
+      <div class="lb-title" id="lbTitle"></div>
+      <div class="lb-tag" id="lbTag"></div>
+    </div>
+    <button class="lb-close" id="lbClose">✕</button>
+  </div>
+
+  <!-- Swipe track -->
+  <div class="lb-track" id="lbTrack">
+    <div class="lb-slide" id="lbSlide">
+      <div class="lb-zoom-wrap" id="lbZoomWrap">
+        <div class="lb-img" id="lbImg"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Nav arrows -->
+  <button class="lb-arrow lb-prev" id="lbPrev">‹</button>
+  <button class="lb-arrow lb-next" id="lbNext">›</button>
+
+  <!-- Dots indicator -->
+  <div class="lb-dots" id="lbDots"></div>
 </div>
 
-<!-- ════════════════════════
-     ABOUT
-════════════════════════ -->
-<section class="sec sec-cream reveal" id="tentang">
-  <div class="eyebrow">Tentang Kami</div>
-  <h2 class="sec-h2 dark">
-    Bukan soal<br>seberapa banyak.<br><em>Tapi seberapa baik.</em>
-  </h2>
-
-  <div class="about-visual reveal reveal-d1">
-    <div class="about-img-box"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="60" r="36" stroke="currentColor" stroke-width=".7" opacity=".3"/>
-  <!-- bite mark -->
-  <path d="M86 34 Q100 50 96 70" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <!-- chocolate chips -->
-  <ellipse cx="44" cy="52" rx="5" ry="4" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="62" cy="44" rx="4" ry="3.5" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="52" cy="68" rx="5" ry="4" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="36" cy="68" rx="3.5" ry="3" stroke="currentColor" stroke-width="1" opacity=".6"/>
-  <ellipse cx="68" cy="64" rx="4" ry="3.5" stroke="currentColor" stroke-width="1" opacity=".6"/>
-  <ellipse cx="46" cy="38" rx="3" ry="2.5" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-</svg></div>
-    <div class="about-caption">"Setiap toples lahir dari tangan yang sama yang membuat kue untuk keluarga sendiri."</div>
+<section id="anggota">
+  <div class="container">
+    <div class="sec-tag reveal"># DAFTAR SISWA</div>
+    <h2 class="sec-title reveal">👥 Anggota Kelas</h2>
+    <p class="sec-desc reveal">Hover kartu untuk flip — lihat bio singkat setiap siswa! 34 jiwa pejuang XI TEKNIK 1.</p>
+    <div class="members-grid reveal" id="memberGrid"></div>
   </div>
+</section>
 
-  <p class="sec-body dark reveal reveal-d1">
-    Di pasar yang tidak kekurangan pilihan, Dapuran Fitri memilih jalan yang lebih sempit — dan lebih jujur. Kami memproduksi dalam kapasitas yang bisa kami jaga kualitasnya sepenuhnya.
-  </p>
-  <p class="sec-body dark reveal reveal-d2">
-    Nastar, Putri Salju, Semprit, dan kue pilihan kami dibuat dengan bahan yang tidak pernah kami ganti demi efisiensi. Mentega asli. Bahan pilihan. Proses yang tidak dipercepat.
-  </p>
-
-  <div class="about-pull reveal reveal-d2">
-    "Kue yang ada di meja Lebaran keluarga Anda adalah cerminan dari perhatian yang Anda siapkan. Kami tidak mau menjadi <em>pilihan yang dikompromikan.</em>"
-  </div>
-
-  <div class="stats-row reveal reveal-d3">
-    <div class="stat-box">
-      <div class="stat-val">100%</div>
-      <div class="stat-lbl">Bahan Asli, Tanpa Substitusi</div>
+<section id="leaderboard">
+  <div class="container">
+    <div class="sec-tag reveal"># PAPAN NILAI</div>
+    <h2 class="sec-title reveal">📊 Leaderboard Kelas</h2>
+    <p class="sec-desc reveal">Peringkat nilai rata-rata XI TEKNIK 1 — Semester Genap 2024/2025.</p>
+    <div class="lb-controls reveal">
+      <button class="lb-filter active lb-filter-all" data-subject="all">Semua Mapel</button>
+      <button class="lb-filter" data-subject="agama_islam">Agama Islam</button>
+      <button class="lb-filter" data-subject="agama_kristen">Agama Kristen</button>
+      <button class="lb-filter" data-subject="pkn">PKN</button>
+      <button class="lb-filter" data-subject="b_indo">B.Indonesia</button>
+      <button class="lb-filter" data-subject="mtk_umum">MTK U</button>
+      <button class="lb-filter" data-subject="b_inggris">B.Inggris</button>
+      <button class="lb-filter" data-subject="sejarah">Sejarah</button>
+      <button class="lb-filter" data-subject="pjok">PJOK</button>
+      <button class="lb-filter" data-subject="seni_budaya">Seni Budaya</button>
+      <button class="lb-filter" data-subject="mtk_l">MTK L</button>
+      <button class="lb-filter" data-subject="fisika">Fisika</button>
+      <button class="lb-filter" data-subject="kimia">Kimia</button>
+      <div class="lb-pair-wrap">
+        <button class="lb-filter" data-subject="prakarya">Prakarya</button>
+        <button class="lb-filter" data-subject="informatika">Informatika</button>
+      </div>
     </div>
-    <div class="stat-box">
-      <div class="stat-val">0</div>
-      <div class="stat-lbl">Kompromi pada Kualitas</div>
-    </div>
-    <div class="stat-box">
-      <div class="stat-val">11</div>
-      <div class="stat-lbl">Jenis Kue Tersedia</div>
-    </div>
-    <div class="stat-box">
-      <div class="stat-val">H‑3</div>
-      <div class="stat-lbl">Garansi Tiba Sebelum Lebaran</div>
+    <div class="leaderboard-wrap reveal">
+      <div class="lb-podium" id="lbPodium">
+        <div class="podium-item second" id="pod2"><div class="podium-avatar" id="pod2ava">🌟</div><div class="podium-rank">🥈</div><div class="podium-name" id="pod2name">—</div><div class="podium-score" id="pod2score">—</div><div class="podium-block p2"></div></div>
+        <div class="podium-item first"  id="pod1"><div class="podium-sparkle">✨✨✨</div><div class="podium-avatar" id="pod1ava">👑</div><div class="podium-rank">🥇</div><div class="podium-name" id="pod1name">—</div><div class="podium-score" id="pod1score">—</div><div class="podium-block p1"></div></div>
+        <div class="podium-item third"  id="pod3"><div class="podium-avatar" id="pod3ava">🔥</div><div class="podium-rank">🥉</div><div class="podium-name" id="pod3name">—</div><div class="podium-score" id="pod3score">—</div><div class="podium-block p3"></div></div>
+      </div>
+      <div class="lb-list" id="lbList"></div>
     </div>
   </div>
 </section>
 
-<!-- ════════════════════════
-     PRODUCTS
-════════════════════════ -->
-<section class="products-outer" id="produk">
-  <div class="products-header reveal">
-    <div class="eyebrow" style="color:var(--gold);">Koleksi Kue</div>
-    <h2 class="prod-h2">Sebelas Kue.<br><em>Satu Standar.</em></h2>
-    <p class="prod-sub">Geser untuk melihat semua produk →</p>
-    <div class="prod-swipe-hint" id="prodSwipeHint" aria-hidden="true">
-      <span></span><span></span><span></span>
-    </div>
-  </div>
+<!-- ══ CREDITS ══════════════════════════════════════════════ -->
+<section id="credits">
+  <div class="container">
+    <div class="sec-tag reveal" style="margin-bottom:.4rem;"># CREDITS</div>
+    <h2 class="sec-title reveal" style="font-size:clamp(1.2rem,3vw,1.8rem); margin-bottom:0;">✦ THE BUILD TEAM</h2>
+    <div class="cr-grid reveal">
 
-  <div class="prod-carousel" id="prodCarousel">
-    <div class="prod-card" style="--card-i:0"
-      data-product-id="nastar" data-badge="Unggulan" data-name="Nastar" data-em="Klasik"
-      data-desc="Selai nanas dibuat sendiri. Kulit yang luruh sebelum sempat digigit. Rasio isian yang tidak pernah dikurangi." data-price="Rp 89.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="68" r="42" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="68" r="34" stroke="currentColor" stroke-width=".8" opacity=".35"/>
-  <!-- diamond grid pattern on top -->
-  <line x1="42" y1="52" x2="60" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="51" y1="52" x2="69" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="60" y1="52" x2="78" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="42" y1="52" x2="60" y2="70" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="51" y1="43" x2="69" y2="61" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="60" y1="34" x2="78" y2="52" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <!-- top glaze dome -->
-  <path d="M36 60 Q60 36 84 60" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <!-- leaf top -->
-  <path d="M54 26 Q60 16 66 26" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M58 22 Q60 12 62 22" stroke="currentColor" stroke-width="1" fill="none" opacity=".6"/>
-  <line x1="60" y1="22" x2="60" y2="28" stroke="currentColor" stroke-width="1.2"/>
-</svg></div>
+      <div class="cr-card">
+        <img src="https://res.cloudinary.com/dt3jniwcc/image/upload/f_auto,q_auto,w_400,c_fill/v1772894747/xi-teknik1/anggota/nqjvdmxvwsl48pqyo1iv.jpg" alt="M. Azran Kabiran"/>
+        <span class="cr-role">Web Developer</span>
+        <div class="cr-name">M. Azran Kabiran</div>
+        <a class="cr-ig" href="https://www.instagram.com/azrnkbrn._" target="_blank" rel="noopener">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @azrnkbrn._
+        </a>
       </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Unggulan</div>
-        <div class="vcard-name">Nastar <em>Klasik</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 89.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:1"
-      data-product-id="putri-salju" data-badge="Signature" data-name="Putri" data-em="Salju"
-      data-desc="Meleleh sebelum sempat digigit — bukan klaim, ini standar. Prosesnya lebih panjang dan kami tidak berniat mengubah itu." data-price="Rp 79.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg3">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- crescent -->
-  <path d="M72 25 Q88 42 84 64 Q80 86 60 92 Q38 98 24 80 Q10 62 20 42 Q30 22 52 20" stroke="currentColor" stroke-width="1.5" fill="none"/>
-  <path d="M52 20 Q68 18 72 25" stroke="currentColor" stroke-width="1.5" fill="none"/>
-  <!-- inner arc -->
-  <path d="M68 30 Q80 48 74 66 Q68 82 52 86" stroke="currentColor" stroke-width=".8" opacity=".4" fill="none"/>
-  <!-- sugar/snow dots scattered -->
-  <circle cx="38" cy="50" r="2" fill="currentColor" opacity=".5"/>
-  <circle cx="48" cy="72" r="1.5" fill="currentColor" opacity=".4"/>
-  <circle cx="62" cy="44" r="1.5" fill="currentColor" opacity=".4"/>
-  <circle cx="30" cy="68" r="2.5" fill="currentColor" opacity=".3"/>
-  <circle cx="55" cy="60" r="1" fill="currentColor" opacity=".5"/>
-  <!-- powdered sugar falling -->
-  <line x1="85" y1="28" x2="85" y2="36" stroke="currentColor" stroke-width=".8" opacity=".4"/>
-  <line x1="92" y1="34" x2="92" y2="40" stroke="currentColor" stroke-width=".8" opacity=".3"/>
-  <line x1="88" y1="20" x2="88" y2="26" stroke="currentColor" stroke-width=".8" opacity=".25"/>
-  <circle cx="85" cy="38" r="1" fill="currentColor" opacity=".4"/>
-  <circle cx="92" cy="42" r="1" fill="currentColor" opacity=".3"/>
-</svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Signature</div>
-        <div class="vcard-name">Putri <em>Salju</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 79.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:2"
-      data-product-id="semprit" data-badge="Kekayaan Dapur" data-name="Kue" data-em="Semprit"
-      data-desc="Bukti bahwa tangan terampil membuat hal sederhana menjadi istimewa. Konsistensi dari toples pertama hingga terakhir." data-price="Rp 69.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg4">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 8-petal rosette -->
-  <path d="M60 22 Q68 38 60 44 Q52 38 60 22Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M60 98 Q68 82 60 76 Q52 82 60 98Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M22 60 Q38 68 44 60 Q38 52 22 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M98 60 Q82 68 76 60 Q82 52 98 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M35 35 Q46 48 40 54 Q34 48 35 35Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M85 35 Q74 48 80 54 Q86 48 85 35Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M35 85 Q46 72 40 66 Q34 72 35 85Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M85 85 Q74 72 80 66 Q86 72 85 85Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <!-- center -->
-  <circle cx="60" cy="60" r="10" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="60" r="4" stroke="currentColor" stroke-width="1" opacity=".5"/>
-</svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Kekayaan Dapur</div>
-        <div class="vcard-name">Kue <em>Semprit</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 69.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:3"
-      data-product-id="gutem" data-badge="Klasik Tradisional" data-name="Kue" data-em="Gutem"
-      data-desc="Tekstur padat dengan pola lingkaran berlapis yang khas. Rasa manis yang pas — pilihan klasik yang selalu ada di meja Lebaran." data-price="Rp 65.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/><circle cx="60" cy="60" r="34" stroke="currentColor" stroke-width=".8" opacity=".35"/><circle cx="60" cy="60" r="24" stroke="currentColor" stroke-width=".7" opacity=".2"/><path d="M28 48 Q34 42 40 48 Q46 54 52 48 Q58 42 64 48 Q70 54 76 48 Q82 42 88 48 Q94 54 92 60" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".6"/><path d="M28 72 Q34 66 40 72 Q46 78 52 72 Q58 66 64 72 Q70 78 76 72 Q82 66 88 72" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".6"/><circle cx="60" cy="60" r="6" stroke="currentColor" stroke-width="1.2"/><circle cx="60" cy="60" r="2" fill="currentColor" opacity=".5"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Klasik Tradisional</div>
-        <div class="vcard-name">Kue <em>Gutem</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 65.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:4"
-      data-product-id="lontong-paris" data-badge="Favorit Semua Umur" data-name="Lontong" data-em="Paris"
-      data-desc="Gulungan kue dengan taburan wijen yang harum. Renyah di luar, lembut di dalam — kombinasi tekstur yang tidak pernah mengecewakan." data-price="Rp 70.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="36" width="80" height="48" rx="24" stroke="currentColor" stroke-width="1.4"/><ellipse cx="20" cy="60" rx="10" ry="24" stroke="currentColor" stroke-width="1.1" opacity=".5"/><ellipse cx="100" cy="60" rx="10" ry="24" stroke="currentColor" stroke-width="1.1" opacity=".5"/><ellipse cx="45" cy="50" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-20 45 50)"/><ellipse cx="60" cy="44" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(10 60 44)"/><ellipse cx="75" cy="50" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-15 75 50)"/><ellipse cx="50" cy="64" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(25 50 64)"/><ellipse cx="68" cy="68" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-10 68 68)"/><ellipse cx="82" cy="60" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(20 82 60)"/><ellipse cx="36" cy="65" rx="2.5" ry="1.8" stroke="currentColor" stroke-width="1" transform="rotate(5 36 65)" opacity=".6"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Favorit Semua Umur</div>
-        <div class="vcard-name">Lontong <em>Paris</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 70.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:5"
-      data-product-id="kacang-ijo" data-badge="Pilihan Sehat" data-name="Kacang" data-em="Ijo"
-      data-desc="Berbahan kacang hijau pilihan. Gurih, ringan, dan penuh karakter — bukti bahwa bahan sederhana bisa menghasilkan rasa luar biasa." data-price="Rp 68.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/><ellipse cx="44" cy="48" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(-20 44 48)"/><line x1="44" y1="43" x2="44" y2="53" stroke="currentColor" stroke-width=".8" transform="rotate(-20 44 48)" opacity=".4"/><ellipse cx="70" cy="44" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(15 70 44)"/><line x1="70" y1="39" x2="70" y2="49" stroke="currentColor" stroke-width=".8" transform="rotate(15 70 44)" opacity=".4"/><ellipse cx="50" cy="70" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(10 50 70)"/><line x1="50" y1="65" x2="50" y2="75" stroke="currentColor" stroke-width=".8" transform="rotate(10 50 70)" opacity=".4"/><ellipse cx="76" cy="68" rx="7" ry="4.5" stroke="currentColor" stroke-width="1.1" transform="rotate(-25 76 68)"/><line x1="76" y1="63.5" x2="76" y2="72.5" stroke="currentColor" stroke-width=".8" transform="rotate(-25 76 68)" opacity=".4"/><ellipse cx="60" cy="60" rx="6" ry="4" stroke="currentColor" stroke-width="1" transform="rotate(5 60 60)" opacity=".6"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Pilihan Sehat</div>
-        <div class="vcard-name">Kacang <em>Ijo</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 68.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:6"
-      data-product-id="skipi" data-badge="Berlapis & Renyah" data-name="Kue" data-em="Skipi"
-      data-desc="Kue berlapis tipis yang rapuh saat dipegang dan meleleh saat dimakan. Setiap lapisan adalah komitmen terhadap proses yang tidak bisa dipercepat." data-price="Rp 72.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="52" width="84" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/><rect x="22" y="44" width="76" height="12" rx="2" stroke="currentColor" stroke-width="1.1" opacity=".65"/><rect x="26" y="36" width="68" height="12" rx="2" stroke="currentColor" stroke-width=".9" opacity=".4"/><rect x="22" y="64" width="76" height="12" rx="2" stroke="currentColor" stroke-width="1.1" opacity=".65"/><rect x="26" y="72" width="68" height="12" rx="2" stroke="currentColor" stroke-width=".9" opacity=".4"/><line x1="32" y1="52" x2="32" y2="68" stroke="currentColor" stroke-width=".8" opacity=".35"/><line x1="46" y1="52" x2="46" y2="68" stroke="currentColor" stroke-width=".8" opacity=".35"/><line x1="60" y1="52" x2="60" y2="68" stroke="currentColor" stroke-width=".8" opacity=".35"/><line x1="74" y1="52" x2="74" y2="68" stroke="currentColor" stroke-width=".8" opacity=".35"/><line x1="88" y1="52" x2="88" y2="68" stroke="currentColor" stroke-width=".8" opacity=".35"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Berlapis & Renyah</div>
-        <div class="vcard-name">Kue <em>Skipi</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 72.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:7"
-      data-product-id="bangkit-kampung" data-badge="Resep Warisan" data-name="Bangkit" data-em="Kampung"
-      data-desc="Dibuat dari resep turun-temurun yang hampir terlupakan. Bentuk berlian khas dengan tekstur crumble sempurna — autentik dari pertama hingga terakhir." data-price="Rp 65.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 16 L96 60 L60 104 L24 60 Z" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M60 30 L84 60 L60 90 L36 60 Z" stroke="currentColor" stroke-width=".8" fill="none" opacity=".35"/><line x1="24" y1="60" x2="96" y2="60" stroke="currentColor" stroke-width=".9" opacity=".4"/><line x1="60" y1="16" x2="60" y2="104" stroke="currentColor" stroke-width=".9" opacity=".4"/><circle cx="60" cy="16" r="2.5" fill="currentColor" opacity=".5"/><circle cx="96" cy="60" r="2.5" fill="currentColor" opacity=".5"/><circle cx="60" cy="104" r="2.5" fill="currentColor" opacity=".5"/><circle cx="24" cy="60" r="2.5" fill="currentColor" opacity=".5"/><circle cx="60" cy="60" r="5" stroke="currentColor" stroke-width="1.1"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Resep Warisan</div>
-        <div class="vcard-name">Bangkit <em>Kampung</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 65.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:8"
-      data-product-id="bangkit-susu" data-badge="Lembut & Creamy" data-name="Bangkit" data-em="Susu"
-      data-desc="Versi premium dari kue bangkit tradisional — dengan susu pilihan yang membuat teksturnya lebih lembut dan aromanya lebih kaya." data-price="Rp 72.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 18 Q92 40 94 60 Q92 80 60 102 Q28 80 26 60 Q28 40 60 18Z" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M60 32 Q82 48 82 60 Q82 72 60 88 Q38 72 38 60 Q38 48 60 32Z" stroke="currentColor" stroke-width=".8" fill="none" opacity=".35"/><circle cx="60" cy="50" r="4" stroke="currentColor" stroke-width="1"/><circle cx="48" cy="62" r="3" stroke="currentColor" stroke-width="1" opacity=".6"/><circle cx="72" cy="62" r="3" stroke="currentColor" stroke-width="1" opacity=".6"/><circle cx="55" cy="73" r="2.5" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="66" cy="73" r="2.5" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="60" cy="60" r="7" stroke="currentColor" stroke-width="1.1" opacity=".35"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Lembut & Creamy</div>
-        <div class="vcard-name">Bangkit <em>Susu</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 72.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:9"
-      data-product-id="dahlia" data-badge="Cantik & Elegan" data-name="Kue" data-em="Dahlia"
-      data-desc="Rosette dua belas kelopak yang dibentuk dengan tangan, satu per satu. Tidak ada dua kue yang identik — karena keindahannya ada di ketidaksempurnaannya." data-price="Rp 75.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 18 Q66 34 60 42 Q54 34 60 18Z" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M60 102 Q66 86 60 78 Q54 86 60 102Z" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M18 60 Q34 66 42 60 Q34 54 18 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M102 60 Q86 66 78 60 Q86 54 102 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/><path d="M30 30 Q42 44 38 52 Q30 44 30 30Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".8"/><path d="M90 30 Q78 44 82 52 Q90 44 90 30Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".8"/><path d="M30 90 Q42 76 38 68 Q30 76 30 90Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".8"/><path d="M90 90 Q78 76 82 68 Q90 76 90 90Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".8"/><path d="M60 36 Q64 46 60 50 Q56 46 60 36Z" stroke="currentColor" stroke-width=".9" fill="none" opacity=".5"/><path d="M60 84 Q64 74 60 70 Q56 74 60 84Z" stroke="currentColor" stroke-width=".9" fill="none" opacity=".5"/><path d="M36 60 Q46 64 50 60 Q46 56 36 60Z" stroke="currentColor" stroke-width=".9" fill="none" opacity=".5"/><path d="M84 60 Q74 64 70 60 Q74 56 84 60Z" stroke="currentColor" stroke-width=".9" fill="none" opacity=".5"/><circle cx="60" cy="60" r="11" stroke="currentColor" stroke-width="1.3"/><circle cx="60" cy="60" r="5" stroke="currentColor" stroke-width="1" opacity=".5"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Cantik & Elegan</div>
-        <div class="vcard-name">Kue <em>Dahlia</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 75.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-    <div class="prod-card" style="--card-i:10"
-      data-product-id="sagon" data-badge="Tekstur Unik" data-name="Kue" data-em="Sagon"
-      data-desc="Dari tepung sagu pilihan yang dicetak dan dipanggang hingga kecokelatan sempurna. Crumbly, harum, dan membawa kenangan yang sulit dijelaskan." data-price="Rp 68.000">
-      <!-- Foto area — fullwidth dark bg + SVG -->
-      <div class="vcard-photo bg1">
-        <div class="vcard-svg"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="22" y="22" width="76" height="76" rx="4" stroke="currentColor" stroke-width="1.4" transform="rotate(8 60 60)"/><rect x="30" y="30" width="60" height="60" rx="3" stroke="currentColor" stroke-width=".8" opacity=".35" transform="rotate(8 60 60)"/><line x1="22" y1="60" x2="98" y2="60" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><line x1="60" y1="22" x2="60" y2="98" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><circle cx="43" cy="43" r="3" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><circle cx="77" cy="43" r="3" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><circle cx="43" cy="77" r="3" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><circle cx="77" cy="77" r="3" stroke="currentColor" stroke-width="1" opacity=".5" transform="rotate(8 60 60)"/><circle cx="60" cy="60" r="5" stroke="currentColor" stroke-width="1.1"/></svg></div>
-      </div>
-      <!-- Info card putih — overlap ke atas foto -->
-      <div class="vcard-info">
-        <div class="vcard-badge">Tekstur Unik</div>
-        <div class="vcard-name">Kue <em>Sagon</em></div>
-        <div class="vcard-bottom">
-          <span class="vcard-price">Rp 68.000</span>
-          <button class="vcard-detail" onclick="openProductModal(this.closest('.prod-card'))">Lihat Detail <span class="vcard-arrow">→</span></button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="prod-counter" id="prodCounter">
-    <span class="prod-counter-label">Produk</span>
-    <div class="prod-counter-nums">
-      <span class="prod-counter-current">1</span>
-      <span class="prod-counter-sep">/</span>
-      <span class="prod-counter-total">11</span>
+      <div class="cr-card">
+        <img src="https://res.cloudinary.com/dt3jniwcc/image/upload/f_auto,q_auto,w_400,c_fill/v1772895016/xi-teknik1/anggota/dp8gphpnjqjq7utubsnj.jpg" alt="Nejad Alvanof"/>
+        <span class="cr-role">Asisten Developer</span>
+        <div class="cr-name">Nejad Alvanof</div>
+        <a class="cr-ig" href="https://www.instagram.com/nejad_alvanof" target="_blank" rel="noopener">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 2.759 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @nejad_alvanof
+        </a>
+      </div>
+
+      <div class="cr-card">
+        <img src="https://res.cloudinary.com/dt3jniwcc/image/upload/f_auto,q_auto,w_400,c_fill/v1772895549/xi-teknik1/anggota/hzjgjwy7ro525b5np6cq.jpg" alt="Risti Arma"/>
+        <span class="cr-role">Support Data</span>
+        <div class="cr-name">Risti Arma</div>
+        <a class="cr-ig" href="https://www.instagram.com/ristiarmaa" target="_blank" rel="noopener">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @ristiarmaa
+        </a>
+      </div>
+
+      <div class="cr-card">
+        <img src="https://res.cloudinary.com/dt3jniwcc/image/upload/f_auto,q_auto,w_400,c_fill/v1772895768/xi-teknik1/anggota/xrymepvxgftwwbitnc6o.png" alt="Zaskia Putri Andini"/>
+        <span class="cr-role">Support Data</span>
+        <div class="cr-name">Zaskia Putri A.</div>
+        <a class="cr-ig" href="https://www.instagram.com/ky.andn_" target="_blank" rel="noopener">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @ky.andn_
+        </a>
+      </div>
+
+      <div class="cr-card">
+        <img src="https://res.cloudinary.com/dt3jniwcc/image/upload/f_auto,q_auto,w_400,c_fill/v1772895046/xi-teknik1/anggota/ky6pyyvmj5ecpyx0hvzx.jpg" alt="Nazifa Julianti"/>
+        <span class="cr-role">Support Data</span>
+        <div class="cr-name">Nazifa Julianti P.</div>
+        <a class="cr-ig" href="https://www.instagram.com/nzfjllnti" target="_blank" rel="noopener">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          @nzfjllnti
+        </a>
+      </div>
+
     </div>
   </div>
 </section>
 
-<!-- ════════════════════════
-     PROSES
-════════════════════════ -->
-<section style="background:var(--cream2); overflow:hidden;">
-  <div class="feature-img-sec">
-    <div class="feature-big-emoji"><svg class="kue-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- two cupped hands holding dough ball -->
-  <!-- left hand -->
-  <path d="M14 80 Q10 65 18 55 Q22 50 28 52 L38 58 Q44 62 46 70" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <path d="M28 52 L30 36 Q30 30 36 30 Q42 30 42 36 L42 55" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M36 52 L37 34 Q37 28 43 28 Q49 28 49 34 L49 54" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M44 52 L44 36 Q44 30 50 30 Q56 30 56 36 L55 55" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <!-- right hand -->
-  <path d="M106 80 Q110 65 102 55 Q98 50 92 52 L82 58 Q76 62 74 70" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <path d="M92 52 L90 36 Q90 30 84 30 Q78 30 78 36 L78 55" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M84 52 L83 34 Q83 28 77 28 Q71 28 71 34 L71 54" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M76 52 L76 36 Q76 30 70 30 Q64 30 64 36 L65 55" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <!-- cupped shape bottom -->
-  <path d="M14 80 Q18 95 30 98 Q46 102 60 100 Q74 102 90 98 Q102 95 106 80" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <!-- dough ball -->
-  <circle cx="60" cy="74" r="18" stroke="currentColor" stroke-width="1.2" opacity=".6"/>
-  <circle cx="60" cy="74" r="12" stroke="currentColor" stroke-width=".8" opacity=".3"/>
-</svg></div>
-    <p class="feature-img-caption">"Tidak ada cara lebih cepat untuk bagian ini — dan kami tidak akan mencarinya."</p>
-  </div>
-  <div class="sec" style="padding-top:60px; padding-bottom:60px;">
-    <div class="eyebrow reveal">Di Balik Setiap Toples</div>
-    <h2 class="sec-h2 dark reveal">Proses yang<br>Tidak Kami <em>Percepat</em></h2>
-    <p class="sec-body dark reveal reveal-d1">Mayoritas produksi kue mengoptimalkan kecepatan. Di Dapuran Fitri, kami mengoptimalkan satu hal yang berbeda — konsistensi rasa.</p>
-    <ul class="feature-list reveal reveal-d2">
-      <li>Bahan baku dipilih berdasarkan kualitas, bukan harga. Mentega asli, keju pilihan, tepung fresh setiap batch.</li>
-      <li>Adonan dikerjakan dengan tangan. Setiap kue dibentuk satu per satu — tidak ada mesin yang bisa menggantikan ini.</li>
-      <li>Quality check sebelum masuk toples. Yang tidak lolos tidak ikut dikirim — tidak pernah, meski itu artinya batch lebih sedikit.</li>
-      <li>Label nama produk dan tanggal produksi di setiap toples. Transparansi bukan tuntutan — ini komitmen kami.</li>
-    </ul>
-    <a href="#preorder" class="btn-fill reveal" style="display:block;text-align:center;font-size:11px;letter-spacing:3px;text-transform:uppercase;background:var(--gold);color:var(--dark);padding:18px;text-decoration:none;font-weight:500;margin-top:8px;">Pesan Sekarang</a>
-  </div>
-</section>
-
-<!-- ════════════════════════
-     STORY / FOUNDER
-════════════════════════ -->
-<section class="sec sec-dark reveal" id="cerita">
-  <div class="eyebrow" style="color:var(--gold);">Cerita di Balik Dapur</div>
-  <h2 class="sec-h2 light">Kenalan dengan<br><em>Ibu Fitri</em></h2>
-
-  <div class="story-frame reveal reveal-d1">
-    <div class="story-frame-emoji"><svg class="kue-svg" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- chef hat -->
-  <path d="M38 56 Q38 36 60 36 Q82 36 82 56" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <path d="M44 48 Q44 30 60 28 Q76 30 76 48" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".5"/>
-  <rect x="34" y="54" width="52" height="10" rx="2" stroke="currentColor" stroke-width="1.3"/>
-  <!-- head -->
-  <ellipse cx="60" cy="84" rx="22" ry="24" stroke="currentColor" stroke-width="1.4"/>
-  <!-- face details -->
-  <path d="M52 80 Q54 78 56 80" stroke="currentColor" stroke-width="1.1" fill="none"/>
-  <path d="M64 80 Q66 78 68 80" stroke="currentColor" stroke-width="1.1" fill="none"/>
-  <path d="M54 90 Q60 95 66 90" stroke="currentColor" stroke-width="1.1" fill="none"/>
-  <!-- hair -->
-  <path d="M38 82 Q36 72 40 66" stroke="currentColor" stroke-width="1" opacity=".4" fill="none"/>
-  <path d="M82 82 Q84 72 80 66" stroke="currentColor" stroke-width="1" opacity=".4" fill="none"/>
-  <!-- body/apron -->
-  <path d="M38 108 Q28 120 30 145 L90 145 Q92 120 82 108" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <path d="M38 108 Q60 116 82 108" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <!-- apron tie -->
-  <path d="M48 115 L50 135 M72 115 L70 135" stroke="currentColor" stroke-width="1" opacity=".4"/>
-  <path d="M50 135 Q60 138 70 135" stroke="currentColor" stroke-width="1" opacity=".4" fill="none"/>
-</svg></div>
-    <p class="story-frame-label">"Tidak ada dapur di sini yang bekerja untuk target. Hanya untuk rasa."</p>
-  </div>
-
-  <p class="sec-body light reveal reveal-d1">
-    Dapuran Fitri tidak dimulai dari rencana bisnis. Dimulai dari tidak tahan melihat kue Lebaran yang semakin kehilangan rasanya yang seharusnya.
-  </p>
-  <p class="sec-body light reveal reveal-d2">
-    Ibu Fitri mulai membuat kue sendiri untuk keluarganya. Lalu tetangga meminta. Teman-teman meminta. Dan akhirnya menjadi ini — bukan karena target penjualan, tapi karena rasa yang tidak bisa ditemukan di tempat lain.
-  </p>
-
-  <div class="story-quote reveal reveal-d2">
-    <p>"Satu hal yang tidak akan pernah saya ubah: saya tidak akan mengirimkan sesuatu yang saya sendiri tidak mau makan."</p>
-  </div>
-
-  <span class="story-sig reveal reveal-d3">— Ibu Fitri, Pendiri Dapuran Fitri</span>
-</section>
-
-<!-- ════════════════════════
-     TESTIMONIALS
-════════════════════════ -->
-<section class="sec sec-dark" style="padding-bottom:60px;">
-  <div class="eyebrow reveal" style="color:var(--gold);">Kata Mereka</div>
-  <h2 class="sec-h2 light reveal">Bukan kami<br>yang bercerita.<br><em>Tapi mereka.</em></h2>
-  <div class="test-carousel" id="testCarousel">
-    <div class="test-card">
-      <span class="test-stars">★ ★ ★ ★ ★</span>
-      <p class="test-text">"Nastarnya beda banget sama yang biasa dijual di toko. Selainya penuh, ga pelit. Udah 2 toples habis belum seminggu 😭 terpaksa order lagi"</p>
-      <div class="test-name">Kak Rini</div>
-      <div class="test-loc">Langsa Kota</div>
-    </div>
-    <div class="test-card">
-      <span class="test-stars">★ ★ ★ ★ ★</span>
-      <p class="test-text">"Putri saljunya lumer beneran, bukan lebay. Anak-anak sampe rebutan. Yang bikin kaget itu gula halusnya ga langsung ilang kayak biasanya — tahan lama."</p>
-      <div class="test-name">Marlina</div>
-      <div class="test-loc">Kuala Simpang</div>
-    </div>
-    <div class="test-card">
-      <span class="test-stars">★ ★ ★ ★ ☆</span>
-      <p class="test-text">"Sempritnya cantik dan renyah. Jujur awalnya ragu karena harga lebih mahal dari yang lain — tapi setelah coba, ya wajar sih. Emang beda kualitasnya."</p>
-      <div class="test-name">Yanti</div>
-      <div class="test-loc">P. Brandan</div>
-    </div>
-    <div class="test-card">
-      <span class="test-stars">★ ★ ★ ★ ★</span>
-      <p class="test-text">"Tamu yang datang nanya beli di mana, kirain buatan sendiri. Bangkit kampungnya persis kayak buatan nenek dulu — udah lama ga nemu yang serasa itu."</p>
-      <div class="test-name">Desi Ariani</div>
-      <div class="test-loc">Kuala Simpang</div>
-    </div>
-  </div>
-</section>
-
-<!-- ════════════════════════
-     PRE-ORDER
-════════════════════════ -->
-<section class="sec sec-dark" id="preorder" style="padding-top:60px;">
-  <div class="eyebrow reveal" style="color:var(--gold);">Pre-Order Lebaran 2027</div>
-  <h2 class="sec-h2 light reveal">Slot Terbatas.<br><em>Waktu Tidak.</em></h2>
-
-  <p class="sec-body light reveal reveal-d1">Kami memproduksi dalam jumlah yang bisa kami jaga kualitasnya — bukan jumlah yang bisa kami jual.</p>
-
-  <!-- Slot Board -->
-  <div class="slot-board reveal reveal-d1">
-    <div class="slot-head">
-      <span>Kapasitas Produksi · 2027</span>
-      <span>Live</span>
-    </div>
-    <div class="slot-row" data-product="nastar">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="68" r="42" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="68" r="34" stroke="currentColor" stroke-width=".8" opacity=".35"/>
-  <line x1="42" y1="52" x2="60" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="51" y1="52" x2="69" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="60" y1="52" x2="78" y2="34" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="42" y1="52" x2="60" y2="70" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="51" y1="43" x2="69" y2="61" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <line x1="60" y1="34" x2="78" y2="52" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-  <path d="M36 60 Q60 36 84 60" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <path d="M54 26 Q60 16 66 26" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <line x1="60" y1="22" x2="60" y2="28" stroke="currentColor" stroke-width="1.2"/>
-</svg></span> Nastar</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:56%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">22.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="putri-salju">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- crescent -->
-  <path d="M72 25 Q88 42 84 64 Q80 86 60 92 Q38 98 24 80 Q10 62 20 42 Q30 22 52 20" stroke="currentColor" stroke-width="1.5" fill="none"/>
-  <path d="M52 20 Q68 18 72 25" stroke="currentColor" stroke-width="1.5" fill="none"/>
-  <!-- inner arc -->
-  <path d="M68 30 Q80 48 74 66 Q68 82 52 86" stroke="currentColor" stroke-width=".8" opacity=".4" fill="none"/>
-  <!-- sugar/snow dots scattered -->
-  <circle cx="38" cy="50" r="2" fill="currentColor" opacity=".5"/>
-  <circle cx="48" cy="72" r="1.5" fill="currentColor" opacity=".4"/>
-  <circle cx="62" cy="44" r="1.5" fill="currentColor" opacity=".4"/>
-  <circle cx="30" cy="68" r="2.5" fill="currentColor" opacity=".3"/>
-  <circle cx="55" cy="60" r="1" fill="currentColor" opacity=".5"/>
-  <!-- powdered sugar falling -->
-  <line x1="85" y1="28" x2="85" y2="36" stroke="currentColor" stroke-width=".8" opacity=".4"/>
-  <line x1="92" y1="34" x2="92" y2="40" stroke="currentColor" stroke-width=".8" opacity=".3"/>
-  <line x1="88" y1="20" x2="88" y2="26" stroke="currentColor" stroke-width=".8" opacity=".25"/>
-  <circle cx="85" cy="38" r="1" fill="currentColor" opacity=".4"/>
-  <circle cx="92" cy="42" r="1" fill="currentColor" opacity=".3"/>
-</svg></span> Putri Salju</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:55%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">18.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="semprit">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 8-petal rosette -->
-  <path d="M60 22 Q68 38 60 44 Q52 38 60 22Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M60 98 Q68 82 60 76 Q52 82 60 98Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M22 60 Q38 68 44 60 Q38 52 22 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M98 60 Q82 68 76 60 Q82 52 98 60Z" stroke="currentColor" stroke-width="1.2" fill="none"/>
-  <path d="M35 35 Q46 48 40 54 Q34 48 35 35Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M85 35 Q74 48 80 54 Q86 48 85 35Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M35 85 Q46 72 40 66 Q34 72 35 85Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <path d="M85 85 Q74 72 80 66 Q86 72 85 85Z" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".75"/>
-  <!-- center -->
-  <circle cx="60" cy="60" r="10" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="60" r="4" stroke="currentColor" stroke-width="1" opacity=".5"/>
-</svg></span> Semprit</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:43%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">20.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="gutem">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/><circle cx="60" cy="60" r="34" stroke="currentColor" stroke-width=".8" opacity=".35"/><path d="M28 48 Q34 42 40 48 Q46 54 52 48 Q58 42 64 48 Q70 54 76 48 Q82 42 88 48" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".6"/><path d="M28 72 Q34 66 40 72 Q46 78 52 72 Q58 66 64 72 Q70 78 76 72 Q82 66 88 72" stroke="currentColor" stroke-width="1.1" fill="none" opacity=".6"/><circle cx="60" cy="60" r="6" stroke="currentColor" stroke-width="1.2"/></svg></span> Kue Gutem</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:60%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">12.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="lontong-paris">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="36" width="80" height="48" rx="24" stroke="currentColor" stroke-width="1.4"/><ellipse cx="45" cy="50" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-20 45 50)"/><ellipse cx="60" cy="44" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(10 60 44)"/><ellipse cx="75" cy="50" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-15 75 50)"/><ellipse cx="50" cy="64" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(25 50 64)"/><ellipse cx="68" cy="68" rx="3" ry="2" stroke="currentColor" stroke-width="1" transform="rotate(-10 68 68)"/></svg></span> Lontong Paris</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:50%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">15.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="kacang-ijo">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/><ellipse cx="44" cy="48" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(-20 44 48)"/><ellipse cx="70" cy="44" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(15 70 44)"/><ellipse cx="50" cy="70" rx="8" ry="5" stroke="currentColor" stroke-width="1.2" transform="rotate(10 50 70)"/><ellipse cx="76" cy="68" rx="7" ry="4.5" stroke="currentColor" stroke-width="1.1" transform="rotate(-25 76 68)"/></svg></span> Kacang Ijo</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:44%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">14.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="skipi">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="52" width="84" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/><rect x="22" y="44" width="76" height="12" rx="2" stroke="currentColor" stroke-width="1.1" opacity=".65"/><rect x="26" y="36" width="68" height="12" rx="2" stroke="currentColor" stroke-width=".9" opacity=".4"/><rect x="22" y="64" width="76" height="12" rx="2" stroke="currentColor" stroke-width="1.1" opacity=".65"/></svg></span> Kue Skipi</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:28%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">18.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="bangkit-kampung">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 16 L96 60 L60 104 L24 60 Z" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M60 30 L84 60 L60 90 L36 60 Z" stroke="currentColor" stroke-width=".8" fill="none" opacity=".35"/><circle cx="60" cy="60" r="5" stroke="currentColor" stroke-width="1.1"/></svg></span> Bangkit Kampung</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:27%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">22.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="bangkit-susu">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M60 16 L96 60 L60 104 L24 60 Z" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="60" cy="60" r="18" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="60" cy="60" r="8" stroke="currentColor" stroke-width="1.2"/></svg></span> Bangkit Susu</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:40%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">18.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="paso">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="60" cy="72" rx="42" ry="28" stroke="currentColor" stroke-width="1.4"/><path d="M26 62 Q60 40 94 62" stroke="currentColor" stroke-width="1.2" fill="none"/><circle cx="60" cy="55" r="8" stroke="currentColor" stroke-width="1.1" opacity=".7"/></svg></span> Kue Dahlia</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:20%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">16.0<sup>kg</sup></div></div>
-    </div>
-    <div class="slot-row" data-product="sagon">
-      <div class="slot-info">
-        <div class="slot-name"><span class="slot-icon"><svg class="slot-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="22" y="22" width="76" height="76" rx="4" stroke="currentColor" stroke-width="1.4" transform="rotate(8 60 60)"/><rect x="30" y="30" width="60" height="60" rx="3" stroke="currentColor" stroke-width=".8" opacity=".35" transform="rotate(8 60 60)"/><circle cx="60" cy="60" r="5" stroke="currentColor" stroke-width="1.1"/></svg></span> Kue Sagon</div>
-        <div class="slot-bar-wrap"><div class="slot-bar-track"><div class="slot-bar-fill" style="width:15%"></div></div></div>
-        <div class="slot-bar-sub" data-sub="kg"></div>
-      </div>
-      <div class="slot-count"><div class="slot-count-num">17.0<sup>kg</sup></div></div>
-    </div>
-  </div>
-
-  <!-- Form -->
-  <form class="form-group reveal reveal-d2" id="preorderForm" onsubmit="submitForm(event)" novalidate>
-
-    <!-- Nama -->
-    <label class="sr-only" for="fName">Nama</label>
-    <input type="text" class="form-input" placeholder="Nama Lengkap" id="fName" name="name" inputmode="text" autocomplete="name" required>
-
-    <!-- WA -->
-    <label class="sr-only" for="fWa">Nomor WhatsApp</label>
-    <input type="tel" class="form-input" placeholder="Nomor WhatsApp (contoh: 08123...)" id="fWa" name="wa" inputmode="tel" autocomplete="tel" required>
-
-    <!-- Kota — menentukan admin WA -->
-    <label class="sr-only" for="fKota">Kota</label>
-    <select class="form-input form-select" id="fKota" name="kota" required>
-      <option value="" disabled selected>Pilih Kota / Kabupaten Anda</option>
-      <option value="Langsa">Langsa</option>
-      <option value="Kuala Simpang">Kuala Simpang</option>
-      <option value="P. Brandan">P. Brandan</option>
-    </select>
-
-    <!-- Alamat -->
-    <label class="sr-only" for="fAlamat">Alamat</label>
-    <textarea class="form-input form-textarea" id="fAlamat" name="alamat" placeholder="Alamat lengkap pengiriman" rows="3" required></textarea>
-
-    <!-- Produk yang dipesan -->
-    <div class="form-section-label">Produk yang Dipesan</div>
-    <div class="form-products" id="formProducts">
-      <div class="form-product-row">
-        <select class="form-input form-select form-prod-name" required onchange="recalcTotal()">
-          <option value="" disabled selected>Pilih Produk</option>
-          <option value="nastar" data-product-id="nastar" data-label="Nastar" data-price="0">Nastar</option>
-          <option value="putri-salju" data-product-id="putri-salju" data-label="Putri Salju" data-price="0">Putri Salju</option>
-          <option value="semprit" data-product-id="semprit" data-label="Kue Semprit" data-price="0">Kue Semprit</option>
-          <option value="gutem" data-product-id="gutem" data-label="Kue Gutem" data-price="0">Kue Gutem</option>
-          <option value="lontong-paris" data-product-id="lontong-paris" data-label="Lontong Paris" data-price="0">Lontong Paris</option>
-          <option value="kacang-ijo" data-product-id="kacang-ijo" data-label="Kacang Ijo" data-price="0">Kacang Ijo</option>
-          <option value="skipi" data-product-id="skipi" data-label="Kue Skipi" data-price="0">Kue Skipi</option>
-          <option value="bangkit-kampung" data-product-id="bangkit-kampung" data-label="Bangkit Kampung" data-price="0">Bangkit Kampung</option>
-          <option value="bangkit-susu" data-product-id="bangkit-susu" data-label="Bangkit Susu" data-price="0">Bangkit Susu</option>
-          <option value="dahlia" data-product-id="dahlia" data-label="Kue Dahlia" data-price="0">Kue Dahlia</option>
-          <option value="sagon" data-product-id="sagon" data-label="Kue Sagon" data-price="0">Kue Sagon</option>
-        </select>
-        <input type="number" class="form-input form-prod-kg" placeholder="jumlah toples" min="0.25" step="0.25" required oninput="recalcTotal()">
-        <div style="width:44px;height:52px;"></div>
-      </div>
-    </div>
-    <button type="button" class="form-add-row" onclick="addProductRow()">+ Tambah Produk Lain</button>
-
-    <p style="font-family:'Jost',sans-serif; font-size:10px; color:rgba(196,150,86,.4); letter-spacing:0.5px; margin-top:-4px; margin-bottom:8px; font-style:italic;">
-      Panduan isi jumlah: ¼ toples = 0.25 &nbsp;·&nbsp; ½ toples = 0.5 &nbsp;·&nbsp; 1 toples = 1
-    </p>
-
-    <div class="form-total" id="formTotal">
-      <span class="form-total-label">Estimasi Total Pesanan</span>
-      <div class="form-total-row">
-        <span class="form-total-amount" id="formTotalAmount">Rp 0</span>
-      </div>
-      <span class="form-total-note">*1 toples = 1 kg. Bisa pesan ¼, ½, atau lebih. Konfirmasi final via WhatsApp.</span>
-    </div>
-
-    <button type="submit" class="form-submit">Daftar Pre-Order →</button>
-    <p class="form-note">Setelah mendaftar, Anda akan diarahkan ke WhatsApp admin area Anda untuk konfirmasi pesanan.</p>
-  </form>
-
-  <!-- Add-ons -->
-  <div class="orn orn-dark reveal"><span></span><div class="d"></div><span></span></div>
-  <div class="eyebrow reveal" style="color:var(--gold);">Pelengkap Opsional</div>
-  <div class="addons reveal reveal-d1">
-    <div class="addon">
-      <span class="addon-icon"><svg class="addon-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="6" y="14" width="44" height="32" rx="2" stroke="currentColor" stroke-width="1.3"/>
-  <path d="M6 16 L28 32 L50 16" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <line x1="6" y1="46" x2="20" y2="32" stroke="currentColor" stroke-width="1" opacity=".4"/>
-  <line x1="50" y1="46" x2="36" y2="32" stroke="currentColor" stroke-width="1" opacity=".4"/>
-  <!-- wax seal -->
-  <circle cx="28" cy="30" r="5" stroke="currentColor" stroke-width="1" opacity=".5"/>
-  <path d="M26 28 L28 32 L30 28" stroke="currentColor" stroke-width=".9" fill="none" opacity=".5"/>
-</svg></span>
-      <div class="addon-name">Kartu Pesan</div>
-      <span class="addon-price">+Rp 5.000</span>
-      <p class="addon-desc">Tulis tangan. Mengubah toples menjadi hadiah yang dipikirkan.</p>
-    </div>
-    <div class="addon">
-      <span class="addon-icon"><svg class="addon-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="8" y="22" width="40" height="26" rx="1" stroke="currentColor" stroke-width="1.3"/>
-  <rect x="6" y="16" width="44" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/>
-  <line x1="28" y1="16" x2="28" y2="48" stroke="currentColor" stroke-width="1.1"/>
-  <!-- ribbon horizontal -->
-  <line x1="8" y1="21" x2="50" y2="21" stroke="currentColor" stroke-width="1.1"/>
-  <!-- bow -->
-  <path d="M22 16 Q28 8 34 16" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M24 16 Q28 10 32 16" stroke="currentColor" stroke-width="1" fill="none" opacity=".5"/>
-  <!-- bow loops -->
-  <path d="M28 16 Q22 10 18 14 Q14 18 20 18 Q24 18 28 16Z" stroke="currentColor" stroke-width="1" fill="none"/>
-  <path d="M28 16 Q34 10 38 14 Q42 18 36 18 Q32 18 28 16Z" stroke="currentColor" stroke-width="1" fill="none"/>
-</svg></span>
-      <div class="addon-name">Gift Wrap</div>
-      <span class="addon-price">+Rp 15.000</span>
-      <p class="addon-desc">Kemasan eksklusif untuk toples yang akan diberikan sebagai hadiah.</p>
-    </div>
-    <div class="addon">
-      <span class="addon-icon"><svg class="addon-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M8 8 L8 32 L28 48 Q34 53 40 48 L52 36 Q57 30 52 24 L36 8Z" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <!-- hole -->
-  <circle cx="18" cy="18" r="3.5" stroke="currentColor" stroke-width="1.2"/>
-  <!-- lines on tag -->
-  <line x1="24" y1="26" x2="40" y2="26" stroke="currentColor" stroke-width="1" opacity=".4"/>
-  <line x1="26" y1="32" x2="42" y2="32" stroke="currentColor" stroke-width="1" opacity=".3"/>
-  <line x1="28" y1="38" x2="40" y2="38" stroke="currentColor" stroke-width="1" opacity=".2"/>
-</svg></span>
-      <div class="addon-name">Label Personal</div>
-      <span class="addon-price">+Rp 8.000</span>
-      <p class="addon-desc">"Dari [nama]" tercetak di label toples. Detail kecil yang selalu diingat.</p>
-    </div>
-    <div class="addon">
-      <span class="addon-icon"><svg class="addon-svg" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M28 6 L33 20 L48 20 L36 29 L41 44 L28 35 L15 44 L20 29 L8 20 L23 20Z" stroke="currentColor" stroke-width="1.3" fill="none"/>
-  <path d="M28 14 L31 23 L41 23 L33 29 L36 38 L28 32 L20 38 L23 29 L15 23 L25 23Z" stroke="currentColor" stroke-width=".8" fill="none" opacity=".35"/>
-</svg></span>
-      <div class="addon-name">Early Bird</div>
-      <span class="addon-price">Prioritas Slot</span>
-      <p class="addon-desc">Pesan H-30 sebelum Lebaran — dapat posisi antrian pertama.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ════════════════════════
-     FAQ
-════════════════════════ -->
-<section class="sec sec-cream2" id="faq">
-  <div class="eyebrow reveal">Pertanyaan Umum</div>
-  <h2 class="sec-h2 dark reveal">Yang Sering<br><em>Ditanyakan</em></h2>
-
-  <div class="faq-item reveal" onclick="toggleFaq(this)">
-    <div class="faq-q"><span>Bagaimana cara memesan?</span><em class="faq-icon">+</em></div>
-    <div class="faq-a">Daftarkan nomor WhatsApp di form di atas. Kami hubungi secara personal untuk konfirmasi produk, jumlah, dan jadwal. Tidak ada checkout otomatis — setiap pesanan dikonfirmasi satu per satu.</div>
-  </div>
-  <div class="faq-item reveal" onclick="toggleFaq(this)">
-    <div class="faq-q"><span>Kapan batas pemesanan?</span><em class="faq-icon">+</em></div>
-    <div class="faq-a">Pre-order ditutup saat slot penuh, atau paling lambat H-14 sebelum Lebaran. Semua pesanan tiba di tangan Anda paling lambat H-3 — ini komitmen, bukan estimasi.</div>
-  </div>
-  <div class="faq-item reveal" onclick="toggleFaq(this)">
-    <div class="faq-q"><span>Apakah ada minimum order?</span><em class="faq-icon">+</em></div>
-    <div class="faq-a">Tidak ada. Satu toples pun diperlakukan dengan standar yang sama persis dengan pesanan sepuluh toples.</div>
-  </div>
-  <div class="faq-item reveal" onclick="toggleFaq(this)">
-    <div class="faq-q"><span>Kenapa sistem pre-order, bukan stok langsung?</span><em class="faq-icon">+</em></div>
-    <div class="faq-a">Karena kami tidak membuat stok — kami membuat pesanan. Setiap batch diproduksi setelah pesanan dikonfirmasi. Ini yang menjaga kesegaran dan konsistensi kualitas.</div>
-  </div>
-  <div class="faq-item reveal" onclick="toggleFaq(this)">
-    <div class="faq-q"><span>Bisa dikirim ke luar kota?</span><em class="faq-icon">+</em></div>
-    <div class="faq-a">Saat ini kami melayani area lokal dan kota-kota terdekat. Untuk pengiriman jarak jauh, kami pastikan kemasan aman dan berikan estimasi tiba yang akurat sebelum Anda konfirmasi.</div>
-  </div>
-</section>
-
-<!-- ════════════════════════
-     CLOSING
-════════════════════════ -->
-<section class="closing reveal">
-  <div class="closing-bg-txt"><svg  viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="60" cy="60" r="44" stroke="currentColor" stroke-width="1.4"/>
-  <circle cx="60" cy="60" r="36" stroke="currentColor" stroke-width=".7" opacity=".3"/>
-  <!-- bite mark -->
-  <path d="M86 34 Q100 50 96 70" stroke="currentColor" stroke-width="1.4" fill="none"/>
-  <!-- chocolate chips -->
-  <ellipse cx="44" cy="52" rx="5" ry="4" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="62" cy="44" rx="4" ry="3.5" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="52" cy="68" rx="5" ry="4" stroke="currentColor" stroke-width="1.1"/>
-  <ellipse cx="36" cy="68" rx="3.5" ry="3" stroke="currentColor" stroke-width="1" opacity=".6"/>
-  <ellipse cx="68" cy="64" rx="4" ry="3.5" stroke="currentColor" stroke-width="1" opacity=".6"/>
-  <ellipse cx="46" cy="38" rx="3" ry="2.5" stroke="currentColor" stroke-width=".9" opacity=".5"/>
-</svg></div>
-  <div class="closing-inner">
-    <div class="eyebrow reveal" style="justify-content:center; color:var(--gold);">Dapuran Fitri · 2027</div>
-    <h2 class="closing-h reveal">
-      Cicip.
-      <em>Rasakan.</em>
-    </h2>
-    <div class="closing-div reveal"><span></span><div class="d"></div><span></span></div>
-    <p class="closing-desc reveal">Kue Lebaran yang dibuat seperti milik sendiri — karena memang begitu cara kami membuatnya sejak pertama kali dapur ini menyala.</p>
-    <a href="#preorder" class="closing-cta reveal">Buka Pre-Order Sekarang</a>
-    <a href="https://wa.me/6282277578490" class="closing-cta2 reveal" target="_blank">Chat Langsung via WhatsApp →</a>
-  </div>
-</section>
-
-<!-- ════════════════════════
-     FOOTER
-════════════════════════ -->
 <footer>
-  <a href="#" class="footer-logo">Dapuran <em>Fitri</em></a>
-  <p class="footer-tag">Kue Lebaran buatan tangan. Dibuat dengan cara yang hampir hilang — untuk momen yang tidak ingin Anda kompromikan.</p>
-  <div class="footer-links">
-    <a href="#tentang" class="footer-link">Tentang Kami</a>
-    <a href="#produk" class="footer-link">Produk</a>
-    <a href="#cerita" class="footer-link">Cerita Pendiri</a>
-    <a href="#preorder" class="footer-link">Pre-Order</a>
-    <a href="https://wa.me/6282277578490" class="footer-link" target="_blank" rel="noopener">WhatsApp</a>
-    <a href="https://instagram.com/dapuranfitri" class="footer-link" target="_blank" rel="noopener">Instagram</a>
-    <a href="#faq" class="footer-link">FAQ</a>
-    <a href="/cdn-cgi/l/email-protection#9ef6fbf2f2f1defaffeeebecfff0f8f7eaecf7b0fdf1f3" class="footer-link">Kontak</a>
+  <div class="footer-logo">XI TEKNIK 1</div>
+  <div class="footer-tagline">// SMA NEGERI 1 GEBANG · 2025 / 2027 //</div>
+  <div class="footer-row">
+    <a href="#spotify">Musik</a><a href="#roster">Jadwal</a><a href="#struktur">Struktur</a>
+    <a href="#galeri">Galeri</a><a href="#anggota">Anggota</a><a href="#leaderboard">Nilai</a><a href="#credits">Credits</a>
   </div>
-  <div class="footer-bottom">© 2027 Dapuran Fitri · Dibuat Seperti Milik Sendiri</div>
+  <div class="footer-copy" id="admTrigger">Made with ❤️ by XI TEKNIK 1 · 2024/2025</div>
 </footer>
 
-  <!-- ─────────────────────────────────────────
-    JS FILE:
-    main.js → Nav scroll, Fullscreen menu, Sticky CTA,
-              Product carousel, FAQ accordion,
-              Form submit, Reveal on scroll
-  ─────────────────────────────────────────
-  Script dipanggil SEKALI di bawah sebelum </body>
-  ───────────────────────────────────────── -->
+<!-- ══════════════════════════════════════
+     ADMIN PANEL OVERLAY
+══════════════════════════════════════ -->
 
-<!-- ════════════════════════
-     PRODUCT MODAL
-════════════════════════ -->
-<div class="prod-modal" id="prodModal" onclick="handleModalClick(event)"
-  role="dialog" aria-modal="true" aria-label="Detail produk" aria-hidden="true">
-  <div class="prod-modal-backdrop"></div>
-  <div class="prod-modal-glow"></div>
-
-  <!-- Flying icon (cloned from card) -->
-  <div class="prod-modal-icon" id="modalIcon"></div>
-
-  <!-- Close button -->
-  <div class="prod-modal-close" onclick="closeProductModal()" aria-label="Tutup" role="button" tabindex="0">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-      <line x1="18" y1="6" x2="6" y2="18"/>
-      <line x1="6" y1="6" x2="18" y2="18"/>
-    </svg>
+<!-- Login Modal -->
+<div class="adm-login-overlay" id="admLoginOverlay">
+  <div class="adm-login-box">
+    <button class="adm-close-btn" id="admLoginClose">✕</button>
+    <div class="adm-login-logo">XI <span>TEKNIK</span> 1</div>
+    <div class="adm-login-sub">// ADMIN PANEL //</div>
+    <label class="adm-label">PASSWORD</label>
+    <input type="password" class="adm-input" id="admPassInput" placeholder="Masukkan password..." />
+    <button class="adm-login-btn" id="admLoginBtn">MASUK →</button>
+    <div class="adm-err" id="admErr">❌ Password salah!</div>
   </div>
+</div>
 
-  <!-- Bottom sheet info -->
-  <div class="prod-modal-sheet" id="modalSheet">
-    <div class="sheet-handle"></div>
-    <span class="sheet-badge" id="sheetBadge"></span>
-    <div class="sheet-name" id="sheetName"></div>
-    <p class="sheet-desc" id="sheetDesc"></p>
-    <div class="sheet-footer">
-      <div class="sheet-price" id="sheetPrice">
-        <span id="sheetPriceVal"></span>
-        <small>per toples</small>
+<!-- Admin Panel Full Overlay -->
+<div class="adm-panel-overlay" id="admPanelOverlay">
+  <div class="adm-panel">
+    <div class="adm-topbar">
+      <div class="adm-topbar-logo">XI <span>TEKNIK</span> 1 &nbsp;<span class="adm-topbar-sub">ADMIN</span></div>
+      <div class="adm-topbar-right">
+        <button class="adm-top-btn" id="admLogoutBtn">LOGOUT</button>
+        <button class="adm-top-btn adm-close-panel" id="admPanelClose">✕ TUTUP</button>
       </div>
-      <a href="#preorder" class="sheet-order" onclick="closeProductModal()">Pre-Order →</a>
+    </div>
+    <div class="adm-tabs">
+      <button class="adm-tab active" data-tab="galeri">📷 GALERI</button>
+      <button class="adm-tab" data-tab="struktur">🏫 STRUKTUR</button>
+      <button class="adm-tab" data-tab="anggota">👥 ANGGOTA</button>
+      <button class="adm-tab" data-tab="ultah">🎂 ULTAH</button>
+      <button class="adm-tab" data-tab="quotes">💬 QUOTES</button>
+      <button class="adm-tab" data-tab="kategori">🏷️ KATEGORI</button>
+    </div>
+    <div class="adm-content">
+      <div class="adm-pane active" id="adm-tab-galeri">
+        <div class="adm-sec-head"><h2>KELOLA GALERI FOTO</h2><p>Upload foto kegiatan kelas.</p></div>
+        <div class="adm-galeri-bar">
+          <button class="adm-add-btn" id="admAddPhotoBtn">+ TAMBAH FOTO</button>
+          <span class="adm-count" id="admGaleriCount"></span>
+        </div>
+        <div class="adm-photo-grid" id="admGaleriGrid"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
+      <div class="adm-pane" id="adm-tab-struktur">
+        <div class="adm-sec-head"><h2>FOTO STRUKTUR KELAS</h2><p>Klik kartu untuk upload foto pengurus.</p></div>
+        <div class="adm-card-grid" id="admStrukturGrid"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
+      <div class="adm-pane" id="adm-tab-anggota">
+        <div class="adm-sec-head"><h2>FOTO ANGGOTA KELAS</h2><p>Klik kartu untuk upload foto profil.</p></div>
+        <div class="adm-card-grid" id="admAnggotaGrid"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
+
+      <!-- TAB ULTAH -->
+      <div class="adm-pane" id="adm-tab-ultah">
+        <div class="adm-sec-head"><h2>🎂 ULANG TAHUN</h2><p>Isi tanggal lahir anggota. Banner ultah otomatis muncul saat web dibuka.</p></div>
+        <div class="adm-galeri-bar">
+          <button class="adm-add-btn" id="admSaveUltahBtn">💾 SIMPAN SEMUA</button>
+          <span class="adm-count" id="admUltahCount"></span>
+        </div>
+        <div id="admUltahGrid" class="adm-ultah-grid"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
+
+      <!-- TAB KATEGORI -->
+      <div class="adm-pane" id="adm-tab-kategori">
+        <div class="adm-sec-head"><h2>🏷️ KATEGORI GALERI</h2><p>Tambah atau hapus kategori untuk filter galeri foto.</p></div>
+        <div class="adm-galeri-bar">
+          <input type="text" class="adm-input" id="admKatInput" placeholder="Nama kategori baru..." style="flex:1;max-width:220px;"/>
+          <button class="adm-add-btn" id="admAddKatBtn">+ TAMBAH</button>
+        </div>
+        <div id="admKatList" class="adm-kat-list"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
+
+      <!-- TAB QUOTES -->
+      <div class="adm-pane" id="adm-tab-quotes">
+        <div class="adm-sec-head"><h2>💬 QUOTE OF THE DAY</h2><p>Quote tampil bergantian setiap hari saat web dibuka.</p></div>
+        <div class="adm-galeri-bar">
+          <button class="adm-add-btn" id="admAddQuoteBtn">+ TAMBAH QUOTE</button>
+          <span class="adm-count" id="admQuotesCount"></span>
+        </div>
+        <div id="admQuotesGrid" class="adm-quotes-grid"><div class="adm-loading">MEMUAT...</div></div>
+      </div>
     </div>
   </div>
 </div>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.js"></script>
+<!-- Modal Upload Galeri -->
+<div class="adm-modal" id="admGaleriModal">
+  <div class="adm-modal-box">
+    <button class="adm-modal-close" id="admModalClose">✕</button>
+    <div class="adm-modal-title">TAMBAH FOTO GALERI</div>
+    <div class="adm-fg">
+      <label class="adm-label">JUDUL FOTO</label>
+      <input type="text" class="adm-input" id="admGaleriJudul" placeholder="cth: Outing Class 2025" />
+    </div>
+    <div class="adm-fg">
+      <label class="adm-label">KATEGORI</label>
+      <select class="adm-select" id="admGaleriKat"></select>
+    </div>
+    <div class="adm-fg">
+      <label class="adm-label">PILIH FOTO</label>
+      <div class="adm-dropzone" id="admDropzone">
+        <input type="file" id="admGaleriFile" accept="image/*" />
+        <div class="adm-dz-icon">📸</div>
+        <div class="adm-dz-txt">KLIK ATAU DRAG FOTO · JPG/PNG/WEBP</div>
+        <img class="adm-dz-preview" id="admDzPreview" />
+      </div>
+    </div>
+    <button class="adm-save-btn" id="admGaleriSaveBtn" disabled>UPLOAD & SIMPAN</button>
+  </div>
+</div>
 
-  <script>
-    /* ── FETCH HARGA DARI SUPABASE ── */
-    const _PRICE_URL = 'https://vxvflguqvtvaxbmymudg.supabase.co';
-    const _PRICE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ4dmZsZ3VxdnR2YXhibXltdWRnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1MjYyMzUsImV4cCI6MjA4OTEwMjIzNX0.weNQechph-_irqYANrmqtEyMyLHR1Sw6iQQjjwSoEHo';
+<!-- Toast -->
+<div class="adm-toast" id="admToast"></div>
 
-    async function loadPricesFromDB() {
-      try {
-        const res = await fetch(`${_PRICE_URL}/rest/v1/prices?select=*`, {
-          headers: { 'apikey': _PRICE_KEY, 'Authorization': `Bearer ${_PRICE_KEY}` }
-        });
-        const prices = await res.json();
-        if (!Array.isArray(prices)) return;
-
-        // Simpan ke global price map (dipakai recalcTotal di main.js)
-        prices.forEach(p => { window._priceMap[p.product_id] = p.price; });
-
-        // Update harga di card carousel
-        document.querySelectorAll('.prod-card[data-product-id]').forEach(card => {
-          const pid = card.dataset.productId;
-          if (window._priceMap[pid] === undefined) return;
-          const formatted = 'Rp ' + Number(window._priceMap[pid]).toLocaleString('id-ID');
-          card.dataset.price = formatted;
-          const priceEl = card.querySelector('.vcard-price');
-          if (priceEl) priceEl.textContent = formatted;
-        });
-
-        // Update label harga di semua dropdown form
-        document.querySelectorAll('.form-prod-name option[data-product-id]').forEach(opt => {
-          const pid = opt.dataset.productId;
-          const harga = window._priceMap[pid];
-          if (!harga) return;
-          opt.dataset.price = harga;
-          opt.textContent = `${opt.dataset.label} — Rp ${Number(harga).toLocaleString('id-ID
+<script type="module" src="script.js"></script>
+</body>
+</html>
